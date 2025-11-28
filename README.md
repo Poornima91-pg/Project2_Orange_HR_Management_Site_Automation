@@ -58,6 +58,7 @@ Below are the detailed test cases automated in this project.
     - Test Case 10 – Initiate a Claim Request
 
 **Test Case 1 – Validate Login Using Multiple Credentials**
+
 **Scenario:** Test login with different username/password combinations (Data-Driven Testing).
 **Steps:**
 * Load datasets from Excel.
@@ -71,6 +72,7 @@ Below are the detailed test cases automated in this project.
 * Login status validated.
 
 **Test Case 2 – Verify Home URL Accessibility**
+
 **Scenario:** Ensure the site loads correctly.
 **Steps:**
 * Launch browser.
@@ -79,17 +81,20 @@ Below are the detailed test cases automated in this project.
 * Home page loads without error.
 
 **Test Case 3 – Validate Login Field Presence**
+
 **Scenario**: Verify Username and Password login fields.
 **Expected Result:**
 Username and Password fields are visible and enabled.
 
 **Test Case 4 – Verify Menu Items After Login**
+
 **Scenario:** Ensure main menu navigation is working.
 Menu items: Admin, PIM, Leave, Time, Recruitment, My Info, Performance, Dashboard.
 **Expected Result**:
 All menu items visible and clickable.
 
 **Test Case 5 – Create a New User & Validate Login**
+
 **Scenario:** Add a new user in admin page and log in with the same.
 **Steps:**
 * Open Admin module.
@@ -101,22 +106,26 @@ All menu items visible and clickable.
 * New user can log in.
 
 **Test Case 6 – Validate New User in User List**
+
 **Scenario:** Verify user creation in the admin section.
 **Expected Result:**
 Newly created user appears in User Management → User List.
 
 **Test Case 7 – Verify "Forgot Password" Functionality**
+
 **Scenario:** Test reset password flow.
 **Expected Result:**
 * Confirmation message is displayed.
 * User is redirected correctly.
 
 **Test Case 8 – Validate “My Info” Sub-Menu Items**
+
 **Scenario:** Ensure all personal information sections are accessible.
 **Expected Result:**
 Sub-menu items such as Personal Details, Contact Details, Emergency Contacts, etc. are visible and clickable.
 
 **Test Case 9 – Assign Leave and Verify Assignment**
+
 **Scenario:** Test leave assignment functionality.
 **Expected Result:**
 * Leave assigned successfully.
@@ -124,6 +133,7 @@ Sub-menu items such as Personal Details, Contact Details, Emergency Contacts, et
 * Leave reflects in employee leave records.
 
 **Test Case 10 – Initiate a Claim Request**
+
 **Scenario:** Submit a new claim.
 **Expected Result:**
 * Claim submitted successfully.
@@ -200,44 +210,81 @@ A reusable foundation class that includes:
 
 Project2_OrangehrmHrm_Automation/                     ← Root folder containing entire automation framework
 │
+
 ├── .venv/                                            ← Virtual environment for Python dependencies
 │
+
 ├── locators/                                         ← Centralized file for storing all element locators
+
 │ └── locators.py                                     ← Contains XPaths, CSS selectors, IDs used across pages
+
 │
+
 ├── pages/                                            ← Page Object Model classes (each file = one application page)
+
 │ ├── admin_page.py                                   ← Admin module actions (Add/Search users)
+
 │ ├── base_page.py                                    ← Base class with common functions (waits, clicks, inputs)
+
 │ ├── claim_page.py                                   ← Claim initiation workflow methods
+
 │ ├── dashboard_page.py                               ← Main menu verification & navigation
+
 │ ├── leave_assign_page.py                            ← Assign Leave page elements & actions
+
 │ ├── login_page.py                                   ← Login page interactions
+
 │ └── myinfo_page.py                                  ← "My Info" module navigation & validations
+
 │
+
 ├── Reports/                                          ← Stores HTML/Allure execution reports
+
 │ ├── html                                            ← Stores HTML execution reports
+
 │ └── allure                                          ← Stores Allure execution reports
+
 │
+
 ├── screenshots/                                      ← Captures screenshots on success and failure
+
 │
 ├── testdata/                                         ← External test data files
+
 │ └── test_data.xlsx                                  ← Data-driven test credentials & inputs
+
 │
+
 ├── tests/ ← Pytest test scripts for all modules
+
 │ ├── Test_Dashboard_Page_OrangeHRM.py                ← Dashboard & menu tests
+
 │ └── Test_Login_Page_OrangeHRM.py                    ← Login module test cases
+
 │
+
 ├── utility/                                          ← Helper utilities (config, Excel reader)
+
 │ ├── config_write.py                                 ← Writes/updates values inside config.ini
+
 │ ├── config_reader.py                                ← Reads configuration values (URL, browser, credentials)
+
 │ └──excel_reader.py                                  ← Reads test data from Excel (DDT support)
+
 │
+
 ├── .gitignore                                        ← Git ignore rules
+
 ├── config.ini                                        ← Environment/configuration settings
+
 ├── conftest.py                                       ← Pytest fixtures (browser setup, loggers)
+
 ├── pytest.ini                                        ← Pytest markers & test settings
+
 ├── README.md                                         ← Project documentation
+
 ├── requirements.txt                                  ← List of required Python packages
+
 └── test_logs.log                                     ← Execution logs
 
 ## **Setup and Installation**
