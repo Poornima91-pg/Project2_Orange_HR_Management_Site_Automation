@@ -151,12 +151,19 @@ Sub-menu items such as Personal Details, Contact Details, Emergency Contacts, et
 * Claim listed in user’s claim history.
 
 ## Tools & Technologies Used
+
 **Programming Language:** Python 
+
 **Testing Framework:** Pytest
+
 **Automation Tool:** Selenium WebDriver
+
 **Design Pattern:** Page Object Model (POM)
+
 **Data Handling:** Excel(DDT) (e.g.OpenPyXL)
+
 **Reporting:** Allure and HTML Reports
+
 **Browsers Tested:** Chrome, Edge, Firefox
 
 ## **Page Object Model (POM) – Pages & Page Classes**
@@ -311,10 +318,14 @@ pip install -r requirements.txt
 
 #### **Set Up Environment Variables:**
 
-Create a config.ini file in the project root to store environment data like credentials and browser.(eg)
+Create a config.ini file in the project root to store environment data like credentials and browser.
+(eg)
 [browser_name]
+
 browser = chrome
+
 username=*****
+
 password=*****
 
 ## **Running Tests**
