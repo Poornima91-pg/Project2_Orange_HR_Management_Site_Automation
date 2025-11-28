@@ -66,6 +66,7 @@ Below are the detailed test cases automated in this project.
 * Validate success or failure.
 * For successful login, perform logout.
 * For unsuccessful login, validate error messages.
+  
 **Expected Result:**
 * Valid credentials → Login successful.
 * Invalid credentials → Appropriate error message displayed.
@@ -77,12 +78,14 @@ Below are the detailed test cases automated in this project.
 **Steps:**
 * Launch browser.
 * Navigate to OrangeHRM URL.
+  
 **Expected Result:**
 * Home page loads without error.
 
 **Test Case 3 – Validate Login Field Presence**
 
 **Scenario**: Verify Username and Password login fields.
+
 **Expected Result:**
 Username and Password fields are visible and enabled.
 
@@ -90,6 +93,7 @@ Username and Password fields are visible and enabled.
 
 **Scenario:** Ensure main menu navigation is working.
 Menu items: Admin, PIM, Leave, Time, Recruitment, My Info, Performance, Dashboard.
+
 **Expected Result**:
 All menu items visible and clickable.
 
@@ -101,6 +105,7 @@ All menu items visible and clickable.
 * Create a new user.
 * Log out admin.
 * Login with new user credentials.
+  
 **Expected Result:**
 * User is created successfully.
 * New user can log in.
@@ -108,12 +113,14 @@ All menu items visible and clickable.
 **Test Case 6 – Validate New User in User List**
 
 **Scenario:** Verify user creation in the admin section.
+
 **Expected Result:**
 Newly created user appears in User Management → User List.
 
 **Test Case 7 – Verify "Forgot Password" Functionality**
 
 **Scenario:** Test reset password flow.
+
 **Expected Result:**
 * Confirmation message is displayed.
 * User is redirected correctly.
@@ -121,12 +128,14 @@ Newly created user appears in User Management → User List.
 **Test Case 8 – Validate “My Info” Sub-Menu Items**
 
 **Scenario:** Ensure all personal information sections are accessible.
+
 **Expected Result:**
 Sub-menu items such as Personal Details, Contact Details, Emergency Contacts, etc. are visible and clickable.
 
 **Test Case 9 – Assign Leave and Verify Assignment**
 
 **Scenario:** Test leave assignment functionality.
+
 **Expected Result:**
 * Leave assigned successfully.
 * Success message displayed.
@@ -135,6 +144,7 @@ Sub-menu items such as Personal Details, Contact Details, Emergency Contacts, et
 **Test Case 10 – Initiate a Claim Request**
 
 **Scenario:** Submit a new claim.
+
 **Expected Result:**
 * Claim submitted successfully.
 * Confirmation message displayed.
@@ -300,6 +310,7 @@ cd Project2_OrangehrmHrm_Automation
 pip install -r requirements.txt
 
 #### **Set Up Environment Variables:**
+
 Create a config.ini file in the project root to store environment data like credentials and browser.(eg)
 [browser_name]
 browser = chrome
@@ -308,25 +319,35 @@ browser = chrome
 To execute tests, use the following commands:
 
 **Run All Tests with default browser(chrome) in config.ini file and displayed result on console:**
+
 change to required browser name in configwrite.py file and run it then run the below command
+
  pytest -v -s 
 
 **Run All Tests with browser passed through command line and displayed result on console:**
+
  pytest -v --browser-name firefox
 
 **Run a Single Test File**
+
  pytest Test_Dashboard_Page_OrangeHRM.py::<Testcase name>
+ 
  pytest -k <Testcase name> 
 
 **Run All Tests and  generate html report**
+
 Generate HTML Report:
+
 pytest --html=report.html -v -s
 
 **Run All Tests and  generate allure report**
+
 * Generate Allure Results:
 pytest --alluredir=reports/allure-results
+
 * Create Allure Report:
 allure generate reports/allure-results -o reports/allure-report --clean
+
 * Open Allure Report:
 allure open reports/allure-report
 
