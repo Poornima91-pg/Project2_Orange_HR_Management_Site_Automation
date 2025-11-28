@@ -1,0 +1,7 @@
+selenium>=4.10.0
+pytest>=7.0.0
+webdriver-manager~=4.0.2
+allure-pytest
+pytest-html
+allure-python-commons~=2.15.0
+openpyxl
