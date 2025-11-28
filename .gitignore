@@ -1,0 +1,9 @@
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+Trial.txt
+Orangehrm_Hrsite_Automation.py
+Final.py
+.venv
