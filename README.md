@@ -343,12 +343,15 @@ pytest --html=report.html -v -s
 **Run All Tests and  generate allure report**
 
 * Generate Allure Results:
+  
 pytest --alluredir=reports/allure-results
 
 * Create Allure Report:
+  
 allure generate reports/allure-results -o reports/allure-report --clean
 
 * Open Allure Report:
+  
 allure open reports/allure-report
 
 #### **Logs & Reports**
