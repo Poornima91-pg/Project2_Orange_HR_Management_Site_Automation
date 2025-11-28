@@ -347,6 +347,26 @@ change to required browser name in configwrite.py file and run it then run the b
  
  pytest -k <Testcase name> 
 
+ **Run Tests Using Tags**
+ 
+You can run tests based on markers defined in pytest.ini.
+
+**Run Only Smoke Tests**
+
+pytest -m smoke -v
+
+**Run Only Regression Tests**
+
+pytest -m regression -v
+
+**Run Smoke + Regression Together**
+
+pytest -m "smoke or regression" -v
+
+**Run and generate both html and allure reports together**
+
+pytest
+
 **Run All Tests and  generate html report**
 
 Generate HTML Report:
