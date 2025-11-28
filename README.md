@@ -314,6 +314,8 @@ pip install -r requirements.txt
 Create a config.ini file in the project root to store environment data like credentials and browser.(eg)
 [browser_name]
 browser = chrome
+username=*****
+password=*****
 
 ## **Running Tests**
 To execute tests, use the following commands:
