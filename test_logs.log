@@ -1,0 +1,1505 @@
+2025-11-28 12:00:10,630 - INFO - root - Logging configured successfully
+2025-11-28 12:00:11,685 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:00:11,693 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:00:11,700 - INFO - utility.excel_reader - Fetching specific row: 2
+2025-11-28 12:00:11,780 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:00:11,789 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:00:11,798 - INFO - utility.excel_reader - Reading parameterized test data from Excel
+2025-11-28 12:00:11,798 - INFO - utility.excel_reader - Workbook closed after reading
+2025-11-28 12:00:11,824 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:00:11,831 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:00:11,838 - INFO - utility.excel_reader - Fetching specific row: 2
+2025-11-28 12:00:11,850 - INFO - conftest - ========== TEST SETUP STARTED ==========
+2025-11-28 12:00:11,851 - INFO - conftest - Selected browser: chrome
+2025-11-28 12:00:11,851 - INFO - conftest - Initializing Chrome browser...
+2025-11-28 12:00:11,851 - INFO - WDM - ====== WebDriver manager ======
+2025-11-28 12:00:14,455 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:00:14,907 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:00:15,253 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:00:16,052 - INFO - WDM - WebDriver version 142.0.7444.175 selected
+2025-11-28 12:00:16,058 - INFO - WDM - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-11-28 12:00:16,059 - INFO - WDM - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win32/chromedriver-win32.zip
+2025-11-28 12:00:16,498 - INFO - WDM - Driver downloading response is 200
+2025-11-28 12:00:16,961 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:00:17,398 - INFO - WDM - Driver has been saved in cache [C:\Users\ADMIN\.wdm\drivers\chromedriver\win64\142.0.7444.175]
+2025-11-28 12:00:22,544 - INFO - conftest - Launched Chrome browser in incognito mode
+2025-11-28 12:00:22,772 - INFO - conftest - ========== TEST SETUP COMPLETED ==========
+2025-11-28 12:00:22,785 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:00:22,808 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting Login Process ===
+2025-11-28 12:00:22,809 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:00:22,812 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:00:26,818 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:00:26,834 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:00:26,835 - INFO - Test_Dashboard_Page_OrangeHRM - Entering username: Admin
+2025-11-28 12:00:26,835 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:00:26,835 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:00:26,836 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:00:27,585 - INFO - Test_Dashboard_Page_OrangeHRM - Entering password
+2025-11-28 12:00:27,586 - INFO - pages.login_page - Entering password
+2025-11-28 12:00:27,587 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:00:27,589 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:00:27,693 - INFO - Test_Dashboard_Page_OrangeHRM - Clicking the Login button
+2025-11-28 12:00:27,694 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:00:27,801 - INFO - Test_Dashboard_Page_OrangeHRM - Waiting for Dashboard page to load...
+2025-11-28 12:00:27,801 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:00:29,136 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting Menu Validation Loop ===
+2025-11-28 12:00:29,232 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Admin' is displayed and enabled
+2025-11-28 12:00:29,233 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Admin']")
+2025-11-28 12:00:29,637 - INFO - Test_Dashboard_Page_OrangeHRM - Admin is visible and enabled
+2025-11-28 12:00:30,135 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Admin']")
+2025-11-28 12:00:31,154 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Admin
+2025-11-28 12:00:31,166 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-28 12:00:31,186 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:31,193 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-28 12:00:31,194 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Admin
+2025-11-28 12:00:32,005 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'PIM' is displayed and enabled
+2025-11-28 12:00:32,005 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='PIM']")
+2025-11-28 12:00:32,314 - INFO - Test_Dashboard_Page_OrangeHRM - PIM is visible and enabled
+2025-11-28 12:00:32,743 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='PIM']")
+2025-11-28 12:00:33,693 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked PIM
+2025-11-28 12:00:33,700 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+2025-11-28 12:00:33,718 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:33,741 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+2025-11-28 12:00:33,742 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for PIM
+2025-11-28 12:00:34,002 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Leave' is displayed and enabled
+2025-11-28 12:00:34,002 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Leave']")
+2025-11-28 12:00:34,142 - INFO - Test_Dashboard_Page_OrangeHRM - Leave is visible and enabled
+2025-11-28 12:00:34,446 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Leave']")
+2025-11-28 12:00:35,374 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Leave
+2025-11-28 12:00:35,380 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+2025-11-28 12:00:35,391 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:35,401 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+2025-11-28 12:00:35,401 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Leave
+2025-11-28 12:00:35,811 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Time' is displayed and enabled
+2025-11-28 12:00:35,811 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Time']")
+2025-11-28 12:00:35,867 - INFO - Test_Dashboard_Page_OrangeHRM - Time is visible and enabled
+2025-11-28 12:00:36,213 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Time']")
+2025-11-28 12:00:37,249 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Time
+2025-11-28 12:00:37,317 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet
+2025-11-28 12:00:37,425 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:37,450 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet
+2025-11-28 12:00:37,451 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Time
+2025-11-28 12:00:37,921 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Recruitment' is displayed and enabled
+2025-11-28 12:00:37,922 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Recruitment']")
+2025-11-28 12:00:38,004 - INFO - Test_Dashboard_Page_OrangeHRM - Recruitment is visible and enabled
+2025-11-28 12:00:38,328 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Recruitment']")
+2025-11-28 12:00:39,285 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Recruitment
+2025-11-28 12:00:39,290 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+2025-11-28 12:00:39,318 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:39,369 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+2025-11-28 12:00:39,369 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Recruitment
+2025-11-28 12:00:39,675 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'My Info' is displayed and enabled
+2025-11-28 12:00:39,675 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='My Info']")
+2025-11-28 12:00:39,861 - INFO - Test_Dashboard_Page_OrangeHRM - My Info is visible and enabled
+2025-11-28 12:00:40,246 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='My Info']")
+2025-11-28 12:00:41,618 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked My Info
+2025-11-28 12:00:41,623 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+2025-11-28 12:00:41,634 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:41,642 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+2025-11-28 12:00:41,642 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for My Info
+2025-11-28 12:00:41,983 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Performance' is displayed and enabled
+2025-11-28 12:00:41,983 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Performance']")
+2025-11-28 12:00:42,284 - INFO - Test_Dashboard_Page_OrangeHRM - Performance is visible and enabled
+2025-11-28 12:00:42,758 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Performance']")
+2025-11-28 12:00:44,450 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Performance
+2025-11-28 12:00:44,454 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview
+2025-11-28 12:00:44,467 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:44,474 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview
+2025-11-28 12:00:44,475 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Performance
+2025-11-28 12:00:44,801 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Dashboard' is displayed and enabled
+2025-11-28 12:00:44,801 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Dashboard']")
+2025-11-28 12:00:44,946 - INFO - Test_Dashboard_Page_OrangeHRM - Dashboard is visible and enabled
+2025-11-28 12:00:45,322 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Dashboard']")
+2025-11-28 12:00:45,841 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Dashboard
+2025-11-28 12:00:45,847 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:00:45,868 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:45,889 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:00:45,890 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Dashboard
+2025-11-28 12:00:46,204 - INFO - pages.myinfo_page - MyInfo_Page initialized successfully.
+2025-11-28 12:00:46,204 - INFO - Test_Dashboard_Page_OrangeHRM - Opening 'My Info' main menu
+2025-11-28 12:00:46,205 - INFO - pages.myinfo_page - Opening My Info main menu
+2025-11-28 12:00:46,205 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//span[text()='My Info']")
+2025-11-28 12:00:46,257 - INFO - pages.base_page - Clicking on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.CE3CFFB7F25ED7CA9ACCE13B5BBE3F39.e.171")>
+2025-11-28 12:00:47,642 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting My Info Tab Validation Loop ===
+2025-11-28 12:00:47,648 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Personal Details' is displayed and enabled
+2025-11-28 12:00:47,648 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Personal Details']")
+2025-11-28 12:00:48,252 - INFO - Test_Dashboard_Page_OrangeHRM - Personal Details is visible and enabled
+2025-11-28 12:00:48,693 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Personal Details']")
+2025-11-28 12:00:49,439 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Personal Details
+2025-11-28 12:00:49,444 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+2025-11-28 12:00:49,457 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:49,468 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+2025-11-28 12:00:49,468 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Personal Details
+2025-11-28 12:00:49,772 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Contact Details' is displayed and enabled
+2025-11-28 12:00:49,773 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Contact Details']")
+2025-11-28 12:00:50,002 - INFO - Test_Dashboard_Page_OrangeHRM - Contact Details is visible and enabled
+2025-11-28 12:00:50,403 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Contact Details']")
+2025-11-28 12:00:51,039 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Contact Details
+2025-11-28 12:00:51,045 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7
+2025-11-28 12:00:51,057 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:51,067 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7
+2025-11-28 12:00:51,067 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Contact Details
+2025-11-28 12:00:51,383 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Emergency Contacts' is displayed and enabled
+2025-11-28 12:00:51,383 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Emergency Contacts']")
+2025-11-28 12:00:51,638 - INFO - Test_Dashboard_Page_OrangeHRM - Emergency Contacts is visible and enabled
+2025-11-28 12:00:52,180 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Emergency Contacts']")
+2025-11-28 12:00:53,126 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Emergency Contacts
+2025-11-28 12:00:53,135 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7
+2025-11-28 12:00:53,147 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:53,159 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7
+2025-11-28 12:00:53,160 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Emergency Contacts
+2025-11-28 12:00:53,515 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Dependents' is displayed and enabled
+2025-11-28 12:00:53,516 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Dependents']")
+2025-11-28 12:00:53,584 - INFO - Test_Dashboard_Page_OrangeHRM - Dependents is visible and enabled
+2025-11-28 12:00:53,928 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Dependents']")
+2025-11-28 12:00:54,498 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Dependents
+2025-11-28 12:00:54,503 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7
+2025-11-28 12:00:54,513 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:54,522 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7
+2025-11-28 12:00:54,523 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Dependents
+2025-11-28 12:00:54,817 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Immigration' is displayed and enabled
+2025-11-28 12:00:54,817 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Immigration']")
+2025-11-28 12:00:54,955 - INFO - Test_Dashboard_Page_OrangeHRM - Immigration is visible and enabled
+2025-11-28 12:00:55,351 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Immigration']")
+2025-11-28 12:00:55,881 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Immigration
+2025-11-28 12:00:55,886 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7
+2025-11-28 12:00:55,896 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:55,905 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7
+2025-11-28 12:00:55,905 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Immigration
+2025-11-28 12:00:56,186 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Job' is displayed and enabled
+2025-11-28 12:00:56,186 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Job']")
+2025-11-28 12:00:56,300 - INFO - Test_Dashboard_Page_OrangeHRM - Job is visible and enabled
+2025-11-28 12:00:56,798 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Job']")
+2025-11-28 12:00:57,386 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Job
+2025-11-28 12:00:57,391 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7
+2025-11-28 12:00:57,400 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:57,411 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7
+2025-11-28 12:00:57,411 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Job
+2025-11-28 12:00:57,698 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Salary' is displayed and enabled
+2025-11-28 12:00:57,698 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Salary']")
+2025-11-28 12:00:57,850 - INFO - Test_Dashboard_Page_OrangeHRM - Salary is visible and enabled
+2025-11-28 12:00:58,280 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Salary']")
+2025-11-28 12:00:58,837 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Salary
+2025-11-28 12:00:58,842 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7
+2025-11-28 12:00:58,851 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:00:58,862 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7
+2025-11-28 12:00:58,862 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Salary
+2025-11-28 12:00:59,206 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Report-to' is displayed and enabled
+2025-11-28 12:00:59,207 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Report-to']")
+2025-11-28 12:00:59,283 - INFO - Test_Dashboard_Page_OrangeHRM - Report-to is visible and enabled
+2025-11-28 12:00:59,662 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Report-to']")
+2025-11-28 12:01:00,298 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Report-to
+2025-11-28 12:01:00,302 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7
+2025-11-28 12:01:00,314 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:01:00,341 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7
+2025-11-28 12:01:00,342 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Report-to
+2025-11-28 12:01:00,683 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Qualifications' is displayed and enabled
+2025-11-28 12:01:00,683 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Qualifications']")
+2025-11-28 12:01:00,858 - INFO - Test_Dashboard_Page_OrangeHRM - Qualifications is visible and enabled
+2025-11-28 12:01:01,263 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Qualifications']")
+2025-11-28 12:01:01,885 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Qualifications
+2025-11-28 12:01:01,890 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7
+2025-11-28 12:01:01,901 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:01:01,913 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7
+2025-11-28 12:01:01,914 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Qualifications
+2025-11-28 12:01:02,187 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Memberships' is displayed and enabled
+2025-11-28 12:01:02,187 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Memberships']")
+2025-11-28 12:01:02,751 - INFO - Test_Dashboard_Page_OrangeHRM - Memberships is visible and enabled
+2025-11-28 12:01:03,134 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Memberships']")
+2025-11-28 12:01:04,236 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Memberships
+2025-11-28 12:01:04,241 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7
+2025-11-28 12:01:04,250 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:01:04,260 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7
+2025-11-28 12:01:04,261 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Memberships
+2025-11-28 12:01:04,543 - INFO - Test_Dashboard_Page_OrangeHRM - Logged in as Admin.
+2025-11-28 12:01:04,543 - INFO - Test_Dashboard_Page_OrangeHRM - === TC09 � Starting Assign Leave Test ===
+2025-11-28 12:01:04,550 - INFO - pages.leave_assign_page - Clicking Leave Menu
+2025-11-28 12:01:04,551 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//span[text()='Leave']")
+2025-11-28 12:01:04,678 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.B2AD3D503723C983F0056EF37F80A600.e.368")>
+2025-11-28 12:01:06,404 - INFO - pages.leave_assign_page - Clicking Assign Leave button
+2025-11-28 12:01:06,405 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//a[text()='Assign Leave']")
+2025-11-28 12:01:06,932 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.600BB3A45566E9C80A1A85E0EE8C468B.e.380")>
+2025-11-28 12:01:08,143 - INFO - Test_Dashboard_Page_OrangeHRM - Selecting employee: John  Doe
+2025-11-28 12:01:08,144 - INFO - pages.leave_assign_page - Entering employee name: John  Doe
+2025-11-28 12:01:08,144 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+2025-11-28 12:01:08,721 - INFO - pages.base_page - Waiting for all elements visible: ('xpath', "//div[@role='listbox']//div[@role='option']")
+2025-11-28 12:01:08,739 - INFO - pages.leave_assign_page - Selecting first employee suggestion from dropdown
+2025-11-28 12:01:11,088 - INFO - Test_Dashboard_Page_OrangeHRM - Employee selected: John  Doe
+2025-11-28 12:01:11,089 - INFO - Test_Dashboard_Page_OrangeHRM - Selecting leave type: CAN - Personal
+2025-11-28 12:01:11,090 - INFO - pages.leave_assign_page - Selecting leave type: CAN - Personal
+2025-11-28 12:01:11,091 - INFO - pages.base_page - Waiting for element clickable: ('xpath', "//label[text()='Leave Type']/../..//div[contains(@class,'oxd-select-text')]")
+2025-11-28 12:01:11,218 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[@role='listbox']//span[text()='CAN - Personal']")
+2025-11-28 12:01:11,240 - INFO - pages.leave_assign_page - Clicking on leave type option: CAN - Personal
+2025-11-28 12:01:11,868 - INFO - Test_Dashboard_Page_OrangeHRM - Leave type selected: CAN - Personal
+2025-11-28 12:01:11,869 - INFO - Test_Dashboard_Page_OrangeHRM - Entering date range: From=2025-12-15, To=2025-12-15
+2025-11-28 12:01:11,871 - INFO - pages.leave_assign_page - Entering From Date: 2025-12-15
+2025-11-28 12:01:11,872 - INFO - pages.base_page - Typing into ('xpath', "//label[text()='From Date']/following::input[1]"): 2025-12-15
+2025-11-28 12:01:12,007 - INFO - Test_Dashboard_Page_OrangeHRM - Dates selected: From 2025-12-15 To 2025-12-15
+2025-11-28 12:01:12,007 - INFO - Test_Dashboard_Page_OrangeHRM - Entering comments...
+2025-11-28 12:01:12,008 - INFO - pages.leave_assign_page - Entering comments: Annual leave assigned automatically
+2025-11-28 12:01:12,008 - INFO - pages.base_page - Checking visibility for element: ('xpath', '//textarea')
+2025-11-28 12:01:12,128 - INFO - Test_Dashboard_Page_OrangeHRM - Comments entered.
+2025-11-28 12:01:12,128 - INFO - Test_Dashboard_Page_OrangeHRM - Clicking Assign button...
+2025-11-28 12:01:12,129 - INFO - pages.leave_assign_page - Clicking Assign button
+2025-11-28 12:01:12,129 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:01:12,142 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.604480F47ECC2958E6F18E0CB0C2F627.e.422")>
+2025-11-28 12:01:12,641 - INFO - pages.leave_assign_page - Clicking Confirm Leave button
+2025-11-28 12:01:12,641 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//button[@type='button'])[5]")
+2025-11-28 12:01:13,591 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.604480F47ECC2958E6F18E0CB0C2F627.e.423")>
+2025-11-28 12:01:14,233 - INFO - Test_Dashboard_Page_OrangeHRM - Leave assignment submitted.
+2025-11-28 12:01:14,800 - INFO - Test_Dashboard_Page_OrangeHRM - Reading success toast...
+2025-11-28 12:01:14,800 - INFO - pages.leave_assign_page - Getting success message
+2025-11-28 12:01:14,800 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[contains(@class,'oxd-toast-content--success')]")
+2025-11-28 12:01:15,113 - INFO - Test_Dashboard_Page_OrangeHRM - Success message received: Success
+Successfully Saved
+2025-11-28 12:01:15,113 - INFO - Test_Dashboard_Page_OrangeHRM - Navigating to Leave List page...
+2025-11-28 12:01:15,113 - INFO - pages.leave_assign_page - Clicking Leave List
+2025-11-28 12:01:15,114 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//a[text()='Leave List']")
+2025-11-28 12:01:15,135 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.604480F47ECC2958E6F18E0CB0C2F627.e.427")>
+2025-11-28 12:01:16,078 - INFO - pages.leave_assign_page - Entering employee name: John  Doe
+2025-11-28 12:01:16,079 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+2025-11-28 12:01:16,585 - INFO - pages.base_page - Waiting for all elements visible: ('xpath', "//div[@role='listbox']//div[@role='option']")
+2025-11-28 12:01:16,601 - INFO - pages.leave_assign_page - Selecting first employee suggestion from dropdown
+2025-11-28 12:01:18,882 - INFO - pages.leave_assign_page - Clicking Search button
+2025-11-28 12:01:18,883 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:01:18,903 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.F6591E613BE2C231CD034CAE8A414472.e.449")>
+2025-11-28 12:01:19,408 - INFO - Test_Dashboard_Page_OrangeHRM - Fetching search results...
+2025-11-28 12:01:19,409 - INFO - pages.leave_assign_page - Reading search result message
+2025-11-28 12:01:19,410 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[@class='oxd-toast-start']//p[text()='No Records Found']")
+2025-11-28 12:01:19,809 - INFO - Test_Dashboard_Page_OrangeHRM - ==== TC09 Leave Assignment Validated Successfully ====
+2025-11-28 12:01:19,822 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:01:19,822 - INFO - pages.admin_page - Admin_Page initialized successfully.
+2025-11-28 12:01:19,823 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:01:19,823 - INFO - Test_Dashboard_Page_OrangeHRM - ====== TC05: Create and Validate New User Test Started ======
+2025-11-28 12:01:19,823 - INFO - Test_Dashboard_Page_OrangeHRM - Navigating to Admin menu...
+2025-11-28 12:01:19,824 - INFO - pages.admin_page - Attempting to open Admin menu.
+2025-11-28 12:01:19,824 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//span[text()='Admin']")
+2025-11-28 12:01:19,852 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.F6591E613BE2C231CD034CAE8A414472.e.454")>
+2025-11-28 12:01:21,268 - INFO - pages.admin_page - Admin menu opened successfully.
+2025-11-28 12:01:21,268 - INFO - Test_Dashboard_Page_OrangeHRM - Opening User Management page...
+2025-11-28 12:01:21,299 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//span[@class='oxd-topbar-body-nav-tab-item'])[1]")
+2025-11-28 12:01:21,795 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.21FA0B92F2364310C58A8B9BA03A9DEB.e.461")>
+2025-11-28 12:01:22,469 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//a[text()='Users']")
+2025-11-28 12:01:22,646 - INFO - pages.base_page - Hovering over element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.21FA0B92F2364310C58A8B9BA03A9DEB.e.472")>
+2025-11-28 12:01:23,000 - INFO - Test_Dashboard_Page_OrangeHRM - Clicking Add User button...
+2025-11-28 12:01:23,002 - INFO - pages.admin_page - Clicking Add User button.
+2025-11-28 12:01:23,003 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//button[contains(@class,'oxd-button')])[3]")
+2025-11-28 12:01:23,045 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.21FA0B92F2364310C58A8B9BA03A9DEB.e.473")>
+2025-11-28 12:01:24,081 - INFO - pages.admin_page - Add User form opened.
+2025-11-28 12:01:24,082 - INFO - Test_Dashboard_Page_OrangeHRM - Admin Add User page loaded.
+2025-11-28 12:01:24,082 - INFO - Test_Dashboard_Page_OrangeHRM - Waiting for Add User form to load...
+2025-11-28 12:01:24,083 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+2025-11-28 12:01:24,092 - INFO - Test_Dashboard_Page_OrangeHRM - Selecting Role: ESS
+2025-11-28 12:01:24,093 - INFO - pages.admin_page - Selecting role: ESS
+2025-11-28 12:01:24,093 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//label[text()='User Role']/following::div[@class='oxd-select-text-input'][1]")
+2025-11-28 12:01:24,814 - INFO - pages.base_page - Finding elements with locator: ('xpath', "//div[@role='option']")
+2025-11-28 12:01:25,518 - INFO - pages.admin_page - Role selected: ESS
+2025-11-28 12:01:25,519 - INFO - Test_Dashboard_Page_OrangeHRM - Selecting Status: Enabled
+2025-11-28 12:01:25,522 - INFO - pages.admin_page - Selecting status: Enabled
+2025-11-28 12:01:25,522 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//label[text()='Status']/following::div[contains(@class,'oxd-select-text-input')])")
+2025-11-28 12:01:25,633 - INFO - pages.base_page - Finding elements with locator: ('xpath', "//div[@role='option']//span | //div[@role='option']")
+2025-11-28 12:01:26,260 - INFO - pages.admin_page - Status selected: Enabled
+2025-11-28 12:01:26,261 - INFO - Test_Dashboard_Page_OrangeHRM - Entering Employee Name: John  Doe
+2025-11-28 12:01:26,262 - INFO - pages.admin_page - Selecting employee: John  Doe
+2025-11-28 12:01:26,262 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+2025-11-28 12:01:26,473 - INFO - pages.base_page - Waiting for all elements visible: ('xpath', "//div[@role='option']")
+2025-11-28 12:01:32,001 - INFO - pages.admin_page - Employee selected: John  Doe
+2025-11-28 12:01:32,097 - INFO - Test_Dashboard_Page_OrangeHRM - Entering New Username: Test0981
+2025-11-28 12:01:32,112 - INFO - Test_Dashboard_Page_OrangeHRM - Entering New Password...
+2025-11-28 12:01:32,114 - INFO - pages.admin_page - Creating new user: Test0981
+2025-11-28 12:01:32,161 - INFO - pages.base_page - Sending keys to ('xpath', "//label[text()='Username']/following::input[1]"): Test0981
+2025-11-28 12:01:32,176 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//label[text()='Username']/following::input[1]")
+2025-11-28 12:01:33,008 - INFO - pages.base_page - Sending keys to ('xpath', "//label[text()='Password']/following::input[1]"): Test@345
+2025-11-28 12:01:33,008 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//label[text()='Password']/following::input[1]")
+2025-11-28 12:01:33,153 - INFO - pages.base_page - Sending keys to ('xpath', "//label[text()='Confirm Password']/following::input[1]"): Test@345
+2025-11-28 12:01:33,153 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//label[text()='Confirm Password']/following::input[1]")
+2025-11-28 12:01:33,267 - INFO - Test_Dashboard_Page_OrangeHRM - New user details entered successfully.
+2025-11-28 12:01:33,268 - INFO - pages.admin_page - Saving user details
+2025-11-28 12:01:33,268 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//button[@type='submit' and contains(@class,'oxd-button')]")
+2025-11-28 12:01:33,288 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="45bc440afe1c7c0f97e695cfe7936757", element="f.ADD05A42DBF94B19A82F852CA4A097F4.d.6462608A8069B77BCD23622A381F1F3D.e.492")>
+2025-11-28 12:01:33,784 - INFO - pages.admin_page - User saved successfully.
+2025-11-28 12:01:34,181 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[contains(@class,'oxd-toast') and contains(.,'Success')]")
+2025-11-28 12:02:06,286 - INFO - pages.admin_page - Admin_Page initialized successfully.
+2025-11-28 12:02:06,286 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:02:06,286 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:02:06,287 - INFO - Test_Dashboard_Page_OrangeHRM - ========== TC06 Validate Newly Created User Search STARTED ==========
+2025-11-28 12:02:06,287 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting Login Process ===
+2025-11-28 12:02:06,288 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:02:07,913 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:02:38,429 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting Login Process ===
+2025-11-28 12:02:38,429 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:02:38,430 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:02:40,088 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:03:10,345 - INFO - conftest - ========== TEARDOWN: Closing Browser ==========
+2025-11-28 12:03:10,347 - INFO - root - Closing the browser
+2025-11-28 12:03:12,666 - INFO - conftest - ========== TEST SETUP STARTED ==========
+2025-11-28 12:03:12,670 - INFO - conftest - Selected browser: chrome
+2025-11-28 12:03:12,671 - INFO - conftest - Initializing Chrome browser...
+2025-11-28 12:03:12,683 - INFO - WDM - ====== WebDriver manager ======
+2025-11-28 12:03:15,380 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:03:15,765 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:03:16,119 - INFO - WDM - Driver [C:\Users\ADMIN\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-28 12:03:18,264 - INFO - conftest - Launched Chrome browser in incognito mode
+2025-11-28 12:03:18,321 - INFO - conftest - ========== TEST SETUP COMPLETED ==========
+2025-11-28 12:03:18,322 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:03:18,323 - INFO - Test_Login_Page_OrangeHRM - Navigating to OrangeHRM homepage...
+2025-11-28 12:03:18,324 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:03:21,992 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:03:22,002 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:03:22,002 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:03:22,006 - INFO - Test_Login_Page_OrangeHRM - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:03:22,007 - INFO - Test_Login_Page_OrangeHRM - OrangeHRM URL loaded successfully: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:03:22,467 - INFO - Test_Login_Page_OrangeHRM - Screenshot captured: TC02_URL_Success.png
+2025-11-28 12:03:22,476 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:03:22,477 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:03:22,485 - INFO - Test_Login_Page_OrangeHRM - Validating username is visible and displayed
+2025-11-28 12:03:22,485 - INFO - pages.base_page - Checking if element is displayed & enabled: ('name', 'username')
+2025-11-28 12:03:22,535 - INFO - Test_Login_Page_OrangeHRM - Validating password is visible and displayed
+2025-11-28 12:03:22,535 - INFO - pages.base_page - Checking if element is displayed & enabled: ('name', 'password')
+2025-11-28 12:03:22,586 - INFO - Test_Login_Page_OrangeHRM - Validating login button is visible and displayed
+2025-11-28 12:03:22,586 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//button[@type='submit']")
+2025-11-28 12:03:22,636 - INFO - Test_Login_Page_OrangeHRM - TC03 Passed: All login fields are visible and enabled.
+2025-11-28 12:03:23,001 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:03:23,001 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:03:23,002 - INFO - Test_Login_Page_OrangeHRM - === Test Row 2 Started ===
+2025-11-28 12:03:23,002 - INFO - Test_Login_Page_OrangeHRM - Username: Admin | Password: admin123 | Expected Error: 
+2025-11-28 12:03:23,576 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:03:23,577 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:03:23,578 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:03:23,579 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:03:24,285 - INFO - pages.login_page - Entering password
+2025-11-28 12:03:24,286 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:03:24,286 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:03:24,385 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:03:24,385 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:03:24,467 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:03:24,467 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:03:26,083 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:03:26,088 - INFO - pages.login_page - Login successful
+2025-11-28 12:03:26,088 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Success
+2025-11-28 12:03:26,088 - INFO - Test_Login_Page_OrangeHRM - Detected successful login. Verifying dashboard URL...
+2025-11-28 12:03:26,089 - INFO - Test_Login_Page_OrangeHRM - Expected Dashboard URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:03:26,089 - INFO - Test_Login_Page_OrangeHRM - Actual URL: <bound method Base_Page.get_current_url of <pages.base_page.Base_Page object at 0x000002122F5D8C50>>
+2025-11-28 12:03:26,089 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:03:26,097 - INFO - Test_Login_Page_OrangeHRM - Dashboard URL matched successfully
+2025-11-28 12:03:26,582 - INFO - Test_Login_Page_OrangeHRM - Performing logout...
+2025-11-28 12:03:26,582 - INFO - pages.dashboard_page - Attempting to logout user...
+2025-11-28 12:03:26,583 - INFO - pages.base_page - Clicking on element: ('class name', 'oxd-userdropdown')
+2025-11-28 12:03:26,665 - INFO - pages.base_page - Clicking on element: ('xpath', "//a[text()='Logout']")
+2025-11-28 12:03:28,179 - INFO - pages.dashboard_page - Logout successful.
+2025-11-28 12:03:28,180 - INFO - utility.excel_reader - Writing test result for row 2
+2025-11-28 12:03:28,259 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:03:28,260 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:03:28,260 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Login Successful
+2025-11-28 12:03:28,260 - INFO - Test_Login_Page_OrangeHRM - === Test Row 2 Finished ===
+
+2025-11-28 12:03:28,289 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:03:28,289 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:03:28,289 - INFO - Test_Login_Page_OrangeHRM - === Test Row 3 Started ===
+2025-11-28 12:03:28,290 - INFO - Test_Login_Page_OrangeHRM - Username: Aadmin | Password: admin123 | Expected Error: Invalid credentials
+2025-11-28 12:03:28,717 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:03:28,718 - INFO - pages.login_page - Entering username: Aadmin
+2025-11-28 12:03:28,718 - INFO - pages.base_page - Sending keys to ('name', 'username'): Aadmin
+2025-11-28 12:03:28,718 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:03:29,198 - INFO - pages.login_page - Entering password
+2025-11-28 12:03:29,199 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:03:29,200 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:03:29,283 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:03:29,284 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:03:29,347 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:03:29,348 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:04:01,253 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:04:01,448 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:04:01,808 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Invalid credentials
+2025-11-28 12:04:01,809 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:04:01,809 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:04:01,836 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:04:01,836 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:04:01,856 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:04:02,326 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Invalid credentials
+2025-11-28 12:04:02,327 - INFO - utility.excel_reader - Writing test result for row 3
+2025-11-28 12:04:02,361 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:04:02,361 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:04:02,362 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:04:02,362 - INFO - Test_Login_Page_OrangeHRM - === Test Row 3 Finished ===
+
+2025-11-28 12:04:02,391 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:04:02,392 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:04:02,392 - INFO - Test_Login_Page_OrangeHRM - === Test Row 4 Started ===
+2025-11-28 12:04:02,392 - INFO - Test_Login_Page_OrangeHRM - Username: Admin | Password: admin12 | Expected Error: Invalid credentials
+2025-11-28 12:04:03,427 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:04:03,428 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:04:03,428 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:04:03,428 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:04:03,895 - INFO - pages.login_page - Entering password
+2025-11-28 12:04:03,895 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin12
+2025-11-28 12:04:03,896 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:04:03,965 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:04:03,965 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:04:04,019 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:04:04,019 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:04:36,349 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:04:36,372 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:04:36,408 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Invalid credentials
+2025-11-28 12:04:36,408 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:04:36,408 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:04:36,418 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:04:36,418 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:04:36,427 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:04:36,841 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Invalid credentials
+2025-11-28 12:04:36,841 - INFO - utility.excel_reader - Writing test result for row 4
+2025-11-28 12:04:36,866 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:04:36,866 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:04:36,867 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:04:36,867 - INFO - Test_Login_Page_OrangeHRM - === Test Row 4 Finished ===
+
+2025-11-28 12:04:36,995 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:04:36,995 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:04:36,996 - INFO - Test_Login_Page_OrangeHRM - === Test Row 5 Started ===
+2025-11-28 12:04:36,997 - INFO - Test_Login_Page_OrangeHRM - Username: admin123 | Password: Admin | Expected Error: Invalid credentials
+2025-11-28 12:04:38,003 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:04:38,004 - INFO - pages.login_page - Entering username: admin123
+2025-11-28 12:04:38,005 - INFO - pages.base_page - Sending keys to ('name', 'username'): admin123
+2025-11-28 12:04:38,005 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:04:38,522 - INFO - pages.login_page - Entering password
+2025-11-28 12:04:38,522 - INFO - pages.base_page - Sending keys to ('name', 'password'): Admin
+2025-11-28 12:04:38,523 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:04:38,605 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:04:38,606 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:04:38,668 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:04:38,668 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:05:10,638 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:05:10,660 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:05:10,724 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Invalid credentials
+2025-11-28 12:05:10,724 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:05:10,725 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:05:10,735 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:05:10,735 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:05:10,744 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:05:11,126 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Invalid credentials
+2025-11-28 12:05:11,126 - INFO - utility.excel_reader - Writing test result for row 5
+2025-11-28 12:05:11,137 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:05:11,137 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:05:11,137 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:05:11,138 - INFO - Test_Login_Page_OrangeHRM - === Test Row 5 Finished ===
+
+2025-11-28 12:05:11,507 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:05:11,508 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:05:11,508 - INFO - Test_Login_Page_OrangeHRM - === Test Row 6 Started ===
+2025-11-28 12:05:11,509 - INFO - Test_Login_Page_OrangeHRM - Username:  | Password:  | Expected Error: Required
+2025-11-28 12:05:12,532 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:05:12,533 - INFO - pages.login_page - Entering username: 
+2025-11-28 12:05:12,533 - INFO - pages.base_page - Sending keys to ('name', 'username'): 
+2025-11-28 12:05:12,533 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:05:13,011 - INFO - pages.login_page - Entering password
+2025-11-28 12:05:13,011 - INFO - pages.base_page - Sending keys to ('name', 'password'): 
+2025-11-28 12:05:13,011 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:05:13,074 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:05:13,075 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:05:13,233 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:05:13,234 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:05:44,393 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:05:44,410 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:06:15,579 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//span[text()='Required'])[1]")
+2025-11-28 12:06:15,628 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Required
+2025-11-28 12:06:15,629 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:06:15,629 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:06:15,636 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:06:15,637 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:06:15,646 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:06:16,320 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Required
+2025-11-28 12:06:16,320 - INFO - utility.excel_reader - Writing test result for row 6
+2025-11-28 12:06:16,335 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:06:16,336 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:06:16,336 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:06:16,336 - INFO - Test_Login_Page_OrangeHRM - === Test Row 6 Finished ===
+
+2025-11-28 12:06:16,350 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:06:16,351 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:06:16,351 - INFO - Test_Login_Page_OrangeHRM - === Test Row 7 Started ===
+2025-11-28 12:06:16,351 - INFO - Test_Login_Page_OrangeHRM - Username:  | Password: admin123 | Expected Error: Required
+2025-11-28 12:06:17,294 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:06:17,294 - INFO - pages.login_page - Entering username: 
+2025-11-28 12:06:17,294 - INFO - pages.base_page - Sending keys to ('name', 'username'): 
+2025-11-28 12:06:17,294 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:06:17,823 - INFO - pages.login_page - Entering password
+2025-11-28 12:06:17,824 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:06:17,824 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:06:17,914 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:06:17,916 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:06:17,986 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:06:17,987 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:06:49,075 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:06:49,104 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:07:20,232 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//span[text()='Required'])[1]")
+2025-11-28 12:07:20,266 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Required
+2025-11-28 12:07:20,266 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:07:20,266 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:07:20,275 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:07:20,276 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:07:20,286 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:07:20,594 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Required
+2025-11-28 12:07:20,594 - INFO - utility.excel_reader - Writing test result for row 7
+2025-11-28 12:07:20,608 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:07:20,608 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:07:20,608 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:07:20,609 - INFO - Test_Login_Page_OrangeHRM - === Test Row 7 Finished ===
+
+2025-11-28 12:07:20,620 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:07:20,620 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:07:20,621 - INFO - Test_Login_Page_OrangeHRM - === Test Row 8 Started ===
+2025-11-28 12:07:20,621 - INFO - Test_Login_Page_OrangeHRM - Username: Admin | Password:  | Expected Error: Required
+2025-11-28 12:07:21,948 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:07:21,949 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:07:21,949 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:07:21,949 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:07:22,433 - INFO - pages.login_page - Entering password
+2025-11-28 12:07:22,434 - INFO - pages.base_page - Sending keys to ('name', 'password'): 
+2025-11-28 12:07:22,434 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:07:22,493 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:07:22,493 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:07:22,553 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:07:22,553 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:07:53,691 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:07:53,699 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:08:24,843 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//span[text()='Required'])[1]")
+2025-11-28 12:08:24,873 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Required
+2025-11-28 12:08:24,873 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:08:24,873 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:08:24,882 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:08:24,882 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:08:24,888 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:08:25,207 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Required
+2025-11-28 12:08:25,208 - INFO - utility.excel_reader - Writing test result for row 8
+2025-11-28 12:08:25,223 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:08:25,223 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:08:25,224 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:08:25,224 - INFO - Test_Login_Page_OrangeHRM - === Test Row 8 Finished ===
+
+2025-11-28 12:08:25,243 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:08:25,244 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:08:25,246 - INFO - Test_Login_Page_OrangeHRM - === Test Row 9 Started ===
+2025-11-28 12:08:25,246 - INFO - Test_Login_Page_OrangeHRM - Username:  | Password:  | Expected Error: Invalid credentials
+2025-11-28 12:08:26,219 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:08:26,219 - INFO - pages.login_page - Entering username: 
+2025-11-28 12:08:26,220 - INFO - pages.base_page - Sending keys to ('name', 'username'): 
+2025-11-28 12:08:26,220 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:08:26,683 - INFO - pages.login_page - Entering password
+2025-11-28 12:08:26,683 - INFO - pages.base_page - Sending keys to ('name', 'password'): 
+2025-11-28 12:08:26,684 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:08:26,759 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:08:26,760 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:08:26,850 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:08:26,851 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:08:57,943 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:08:57,955 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:09:29,030 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//span[text()='Required'])[1]")
+2025-11-28 12:09:29,088 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Required
+2025-11-28 12:09:29,089 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:09:29,089 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:09:29,096 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:09:29,096 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:09:29,104 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:09:29,420 - ERROR - Test_Login_Page_OrangeHRM - Error message mismatch! Expected: 'Invalid credentials', Got: 'Required'
+2025-11-28 12:09:29,421 - INFO - utility.excel_reader - Writing test result for row 9
+2025-11-28 12:09:29,436 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:09:29,436 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:09:29,436 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: FAIL - Error mismatch
+2025-11-28 12:09:29,437 - INFO - Test_Login_Page_OrangeHRM - === Test Row 9 Finished ===
+
+2025-11-28 12:09:29,470 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:09:29,471 - INFO - Test_Login_Page_OrangeHRM - === TC07 Forgot Password Validation Started ===
+2025-11-28 12:09:29,472 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:09:30,564 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:09:30,573 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:09:30,574 - INFO - Test_Login_Page_OrangeHRM - Navigated to login page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:09:30,574 - INFO - pages.login_page - Opening Forgot Password page
+2025-11-28 12:09:30,575 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Forgot your password? ']")
+2025-11-28 12:09:31,171 - INFO - pages.base_page - Clicking on element: ('xpath', "//p[text()='Forgot your password? ']")
+2025-11-28 12:09:31,874 - INFO - Test_Login_Page_OrangeHRM - Clicked on Forgot Password link
+2025-11-28 12:09:31,875 - INFO - pages.login_page - Entering username for password reset: Testused09
+2025-11-28 12:09:31,875 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Username']")
+2025-11-28 12:09:32,497 - INFO - pages.base_page - Sending keys to ('xpath', "//input[@placeholder='Username']"): Testused09
+2025-11-28 12:09:32,497 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Username']")
+2025-11-28 12:09:32,601 - INFO - pages.login_page - Clicking reset password button
+2025-11-28 12:09:32,602 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:09:32,622 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:09:32,716 - INFO - Test_Login_Page_OrangeHRM - Entered reset username: Testused09
+2025-11-28 12:09:32,717 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/sendPasswordReset
+2025-11-28 12:09:33,587 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:09:33,917 - INFO - Test_Login_Page_OrangeHRM - URL validation successful
+2025-11-28 12:09:33,918 - INFO - pages.login_page - Checking reset success message
+2025-11-28 12:09:33,919 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//h6[text()='Reset Password link sent successfully']")
+2025-11-28 12:09:34,282 - INFO - pages.login_page - Reset success: Reset Password link sent successfully
+2025-11-28 12:09:34,715 - INFO - Test_Login_Page_OrangeHRM - Success Message Verified: Reset Password link sent successfully
+2025-11-28 12:09:34,715 - INFO - Test_Login_Page_OrangeHRM - TC07 Forgot Password Validation Completed Successfully
+2025-11-28 12:09:34,715 - INFO - Test_Login_Page_OrangeHRM - Login Page Validation Completed Successfully
+2025-11-28 12:09:34,717 - INFO - conftest - ========== TEARDOWN: Closing Browser ==========
+2025-11-28 12:09:34,718 - INFO - root - Closing the browser
+2025-11-28 12:09:37,184 - INFO - conftest - ========== TEST SETUP STARTED ==========
+2025-11-28 12:09:37,185 - INFO - conftest - Selected browser: chrome
+2025-11-28 12:09:37,186 - INFO - conftest - Initializing Chrome browser...
+2025-11-28 12:09:37,187 - INFO - WDM - ====== WebDriver manager ======
+2025-11-28 12:09:40,172 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:09:40,599 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:09:40,960 - INFO - WDM - Driver [C:\Users\ADMIN\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-28 12:09:44,177 - INFO - conftest - Launched Chrome browser in incognito mode
+2025-11-28 12:09:44,343 - INFO - conftest - ========== TEST SETUP COMPLETED ==========
+2025-11-28 12:09:44,359 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:09:44,373 - INFO - pages.admin_page - Admin_Page initialized successfully.
+2025-11-28 12:09:44,375 - INFO - Test_Orangehrm_Hrsite_Automation - === Starting Login Process ===
+2025-11-28 12:09:44,376 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:09:44,377 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:09:47,767 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:09:47,780 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:09:47,780 - INFO - Test_Orangehrm_Hrsite_Automation - Entering username: Admin
+2025-11-28 12:09:47,781 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:09:47,782 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:09:47,782 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:09:48,763 - INFO - Test_Orangehrm_Hrsite_Automation - Entering password
+2025-11-28 12:09:48,764 - INFO - pages.login_page - Entering password
+2025-11-28 12:09:48,764 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:09:48,764 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:09:48,882 - INFO - Test_Orangehrm_Hrsite_Automation - Clicking the Login button
+2025-11-28 12:09:48,883 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:09:48,955 - INFO - Test_Orangehrm_Hrsite_Automation - Waiting for Dashboard page to load...
+2025-11-28 12:09:48,955 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:09:52,077 - INFO - Test_Orangehrm_Hrsite_Automation - Logged in as Admin.
+2025-11-28 12:09:52,078 - INFO - pages.leave_assign_page - Clicking Leave Menu
+2025-11-28 12:09:52,079 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//span[text()='Leave']")
+2025-11-28 12:09:52,832 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="80664e39f8e7b12e169ca869414cd5d8", element="f.695FC2FF7C7C1D823AFC03DE5B77065E.d.FA8A15D3D685A01A768ED0D6C90709AC.e.27")>
+2025-11-28 12:09:55,385 - INFO - pages.leave_assign_page - Clicking Assign Leave button
+2025-11-28 12:09:55,385 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//a[text()='Assign Leave']")
+2025-11-28 12:09:55,817 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="80664e39f8e7b12e169ca869414cd5d8", element="f.695FC2FF7C7C1D823AFC03DE5B77065E.d.621E20E5AB6E7B57078ED28D9D8B6606.e.35")>
+2025-11-28 12:09:57,389 - INFO - pages.leave_assign_page - Entering employee name: John  Doe
+2025-11-28 12:09:57,389 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+2025-11-28 12:09:57,458 - INFO - pages.base_page - Waiting for all elements visible: ('xpath', "//div[@role='listbox']//div[@role='option']")
+2025-11-28 12:09:57,485 - INFO - pages.leave_assign_page - Selecting first employee suggestion from dropdown
+2025-11-28 12:09:59,787 - INFO - Test_Orangehrm_Hrsite_Automation - Employee selected: John  Doe
+2025-11-28 12:10:00,104 - INFO - pages.leave_assign_page - Selecting leave type: CAN - Personal
+2025-11-28 12:10:00,105 - INFO - pages.base_page - Waiting for element clickable: ('xpath', "//label[text()='Leave Type']/../..//div[contains(@class,'oxd-select-text')]")
+2025-11-28 12:10:00,177 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[@role='listbox']//span[text()='CAN - Personal']")
+2025-11-28 12:10:00,199 - INFO - pages.leave_assign_page - Clicking on leave type option: CAN - Personal
+2025-11-28 12:10:00,829 - INFO - Test_Orangehrm_Hrsite_Automation - Leave type selected: CAN - Personal
+2025-11-28 12:10:00,831 - INFO - pages.leave_assign_page - Entering From Date: 2025-12-15
+2025-11-28 12:10:00,832 - INFO - pages.base_page - Typing into ('xpath', "//label[text()='From Date']/following::input[1]"): 2025-12-15
+2025-11-28 12:10:00,937 - INFO - Test_Orangehrm_Hrsite_Automation - Dates selected: From 2025-12-15 To 2025-12-15
+2025-11-28 12:10:00,938 - INFO - pages.leave_assign_page - Entering comments: Annual leave assigned automatically
+2025-11-28 12:10:00,938 - INFO - pages.base_page - Checking visibility for element: ('xpath', '//textarea')
+2025-11-28 12:10:01,051 - INFO - Test_Orangehrm_Hrsite_Automation - Comments entered
+2025-11-28 12:10:01,052 - INFO - pages.leave_assign_page - Clicking Assign button
+2025-11-28 12:10:01,052 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:10:01,067 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="80664e39f8e7b12e169ca869414cd5d8", element="f.695FC2FF7C7C1D823AFC03DE5B77065E.d.ACFE0B0B2755DA61B8664D9A48388B9D.e.76")>
+2025-11-28 12:10:01,546 - INFO - Test_Orangehrm_Hrsite_Automation - Clicked Assign button
+2025-11-28 12:10:01,548 - INFO - pages.leave_assign_page - Clicking Confirm Leave button
+2025-11-28 12:10:01,549 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//button[@type='button'])[5]")
+2025-11-28 12:10:02,753 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="80664e39f8e7b12e169ca869414cd5d8", element="f.695FC2FF7C7C1D823AFC03DE5B77065E.d.ACFE0B0B2755DA61B8664D9A48388B9D.e.80")>
+2025-11-28 12:10:03,253 - INFO - pages.leave_assign_page - Getting success message
+2025-11-28 12:10:03,254 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[contains(@class,'oxd-toast-content--success')]")
+2025-11-28 12:10:04,215 - INFO - Test_Orangehrm_Hrsite_Automation - Success message received: Success
+Successfully Saved
+2025-11-28 12:10:04,216 - INFO - pages.leave_assign_page - Clicking Leave List
+2025-11-28 12:10:04,216 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//a[text()='Leave List']")
+2025-11-28 12:10:04,241 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="80664e39f8e7b12e169ca869414cd5d8", element="f.695FC2FF7C7C1D823AFC03DE5B77065E.d.ACFE0B0B2755DA61B8664D9A48388B9D.e.84")>
+2025-11-28 12:10:05,227 - INFO - pages.leave_assign_page - Entering employee name: John  Doe
+2025-11-28 12:10:05,227 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+2025-11-28 12:10:05,802 - INFO - pages.base_page - Waiting for all elements visible: ('xpath', "//div[@role='listbox']//div[@role='option']")
+2025-11-28 12:10:05,822 - INFO - pages.leave_assign_page - Selecting first employee suggestion from dropdown
+2025-11-28 12:10:08,116 - INFO - pages.leave_assign_page - Entering From Date: 2025-12-15
+2025-11-28 12:10:08,117 - INFO - pages.base_page - Typing into ('xpath', "//label[text()='From Date']/following::input[1]"): 2025-12-15
+2025-11-28 12:10:08,337 - INFO - pages.leave_assign_page - Entering To Date: 2025-12-15
+2025-11-28 12:10:08,338 - INFO - pages.base_page - Typing into ('xpath', "//label[text()='To Date']/following::input[1]"): 2025-12-15
+2025-11-28 12:10:08,586 - INFO - pages.leave_assign_page - Clicking Search button
+2025-11-28 12:10:08,587 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:10:08,610 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="80664e39f8e7b12e169ca869414cd5d8", element="f.695FC2FF7C7C1D823AFC03DE5B77065E.d.66D11380872B8FC0C839D942801514D7.e.108")>
+2025-11-28 12:10:09,115 - INFO - pages.leave_assign_page - Reading search result message
+2025-11-28 12:10:09,115 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[@class='oxd-toast-start']//p[text()='No Records Found']")
+2025-11-28 12:10:09,147 - INFO - Test_Orangehrm_Hrsite_Automation - ==== TC09 Leave Assignment Validated Successfully ====
+2025-11-28 12:10:09,151 - INFO - conftest - ========== TEARDOWN: Closing Browser ==========
+2025-11-28 12:10:09,152 - INFO - root - Closing the browser
+2025-11-28 12:10:11,338 - INFO - conftest - ========== TEST SETUP STARTED ==========
+2025-11-28 12:10:11,338 - INFO - conftest - Selected browser: chrome
+2025-11-28 12:10:11,339 - INFO - conftest - Initializing Chrome browser...
+2025-11-28 12:10:11,339 - INFO - WDM - ====== WebDriver manager ======
+2025-11-28 12:10:13,921 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:10:14,296 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:10:14,638 - INFO - WDM - Driver [C:\Users\ADMIN\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-28 12:10:16,534 - INFO - conftest - Launched Chrome browser in incognito mode
+2025-11-28 12:10:16,573 - INFO - conftest - ========== TEST SETUP COMPLETED ==========
+2025-11-28 12:10:16,576 - INFO - Test_Orangehrm_Hrsite_Automation - === Starting Login Process ===
+2025-11-28 12:10:16,609 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:10:16,619 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:10:20,170 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:10:20,176 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:10:20,177 - INFO - Test_Orangehrm_Hrsite_Automation - Entering username: Test098
+2025-11-28 12:10:20,177 - INFO - pages.login_page - Entering username: Test098
+2025-11-28 12:10:20,177 - INFO - pages.base_page - Sending keys to ('name', 'username'): Test098
+2025-11-28 12:10:20,177 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:10:21,026 - INFO - Test_Orangehrm_Hrsite_Automation - Entering password
+2025-11-28 12:10:21,026 - INFO - pages.login_page - Entering password
+2025-11-28 12:10:21,027 - INFO - pages.base_page - Sending keys to ('name', 'password'): Test@345
+2025-11-28 12:10:21,027 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:10:21,128 - INFO - Test_Orangehrm_Hrsite_Automation - Clicking the Login button
+2025-11-28 12:10:21,128 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:10:21,199 - INFO - Test_Orangehrm_Hrsite_Automation - Waiting for Dashboard page to load...
+2025-11-28 12:10:21,200 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:10:51,685 - INFO - conftest - ========== TEARDOWN: Closing Browser ==========
+2025-11-28 12:10:51,686 - INFO - root - Closing the browser
+2025-11-28 12:14:33,969 - INFO - root - Logging configured successfully
+2025-11-28 12:14:34,414 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:14:34,422 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:14:34,435 - INFO - utility.excel_reader - Fetching specific row: 2
+2025-11-28 12:14:34,459 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:14:34,467 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:14:34,478 - INFO - utility.excel_reader - Reading parameterized test data from Excel
+2025-11-28 12:14:34,478 - INFO - utility.excel_reader - Workbook closed after reading
+2025-11-28 12:14:34,487 - INFO - conftest - ========== TEST SETUP STARTED ==========
+2025-11-28 12:14:34,488 - INFO - conftest - Selected browser: chrome
+2025-11-28 12:14:34,488 - INFO - conftest - Initializing Chrome browser...
+2025-11-28 12:14:34,488 - INFO - WDM - ====== WebDriver manager ======
+2025-11-28 12:14:36,777 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:14:37,218 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:14:37,570 - INFO - WDM - Driver [C:\Users\ADMIN\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-28 12:14:40,070 - INFO - conftest - Launched Chrome browser in incognito mode
+2025-11-28 12:14:40,111 - INFO - conftest - ========== TEST SETUP COMPLETED ==========
+2025-11-28 12:14:40,114 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:14:40,114 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting Login Process ===
+2025-11-28 12:14:40,115 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:14:40,115 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:14:41,136 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:14:43,227 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:14:43,228 - INFO - Test_Dashboard_Page_OrangeHRM - Entering username: Admin
+2025-11-28 12:14:43,228 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:14:43,228 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:14:43,229 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:14:44,070 - INFO - Test_Dashboard_Page_OrangeHRM - Entering password
+2025-11-28 12:14:44,070 - INFO - pages.login_page - Entering password
+2025-11-28 12:14:44,071 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:14:44,071 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:14:44,206 - INFO - Test_Dashboard_Page_OrangeHRM - Clicking the Login button
+2025-11-28 12:14:44,206 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:14:44,304 - INFO - Test_Dashboard_Page_OrangeHRM - Waiting for Dashboard page to load...
+2025-11-28 12:14:44,304 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:14:45,716 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting Menu Validation Loop ===
+2025-11-28 12:14:45,738 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Admin' is displayed and enabled
+2025-11-28 12:14:45,738 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Admin']")
+2025-11-28 12:14:46,210 - INFO - Test_Dashboard_Page_OrangeHRM - Admin is visible and enabled
+2025-11-28 12:14:46,954 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Admin']")
+2025-11-28 12:14:48,527 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Admin
+2025-11-28 12:14:48,534 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-28 12:14:48,541 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:14:48,546 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-28 12:14:48,546 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Admin
+2025-11-28 12:14:49,738 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'PIM' is displayed and enabled
+2025-11-28 12:14:49,739 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='PIM']")
+2025-11-28 12:14:49,796 - INFO - Test_Dashboard_Page_OrangeHRM - PIM is visible and enabled
+2025-11-28 12:14:50,302 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='PIM']")
+2025-11-28 12:14:51,198 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked PIM
+2025-11-28 12:14:51,204 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+2025-11-28 12:14:51,212 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:14:51,219 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+2025-11-28 12:14:51,219 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for PIM
+2025-11-28 12:14:51,491 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Leave' is displayed and enabled
+2025-11-28 12:14:51,492 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Leave']")
+2025-11-28 12:14:51,656 - INFO - Test_Dashboard_Page_OrangeHRM - Leave is visible and enabled
+2025-11-28 12:14:51,957 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Leave']")
+2025-11-28 12:14:53,165 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Leave
+2025-11-28 12:14:53,175 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+2025-11-28 12:14:53,188 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:14:53,197 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+2025-11-28 12:14:53,197 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Leave
+2025-11-28 12:14:53,470 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Time' is displayed and enabled
+2025-11-28 12:14:53,471 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Time']")
+2025-11-28 12:14:53,684 - INFO - Test_Dashboard_Page_OrangeHRM - Time is visible and enabled
+2025-11-28 12:14:54,018 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Time']")
+2025-11-28 12:14:55,225 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Time
+2025-11-28 12:14:55,262 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet
+2025-11-28 12:14:55,291 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:14:55,314 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet
+2025-11-28 12:14:55,314 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Time
+2025-11-28 12:14:55,954 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Recruitment' is displayed and enabled
+2025-11-28 12:14:55,955 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Recruitment']")
+2025-11-28 12:14:56,040 - INFO - Test_Dashboard_Page_OrangeHRM - Recruitment is visible and enabled
+2025-11-28 12:14:56,450 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Recruitment']")
+2025-11-28 12:14:57,368 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Recruitment
+2025-11-28 12:14:57,377 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+2025-11-28 12:14:57,388 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:14:57,394 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+2025-11-28 12:14:57,395 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Recruitment
+2025-11-28 12:14:57,646 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'My Info' is displayed and enabled
+2025-11-28 12:14:57,647 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='My Info']")
+2025-11-28 12:14:57,872 - INFO - Test_Dashboard_Page_OrangeHRM - My Info is visible and enabled
+2025-11-28 12:14:58,226 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='My Info']")
+2025-11-28 12:14:59,147 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked My Info
+2025-11-28 12:14:59,155 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+2025-11-28 12:14:59,163 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:14:59,182 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+2025-11-28 12:14:59,184 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for My Info
+2025-11-28 12:14:59,713 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Performance' is displayed and enabled
+2025-11-28 12:14:59,713 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Performance']")
+2025-11-28 12:14:59,769 - INFO - Test_Dashboard_Page_OrangeHRM - Performance is visible and enabled
+2025-11-28 12:15:00,151 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Performance']")
+2025-11-28 12:15:01,481 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Performance
+2025-11-28 12:15:01,487 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview
+2025-11-28 12:15:01,495 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:01,508 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview
+2025-11-28 12:15:01,508 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Performance
+2025-11-28 12:15:01,787 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Dashboard' is displayed and enabled
+2025-11-28 12:15:01,787 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Dashboard']")
+2025-11-28 12:15:01,912 - INFO - Test_Dashboard_Page_OrangeHRM - Dashboard is visible and enabled
+2025-11-28 12:15:02,299 - INFO - pages.base_page - Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Dashboard']")
+2025-11-28 12:15:02,906 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Dashboard
+2025-11-28 12:15:02,912 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:15:02,936 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:02,961 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:15:02,962 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Dashboard
+2025-11-28 12:15:03,314 - INFO - pages.myinfo_page - MyInfo_Page initialized successfully.
+2025-11-28 12:15:03,315 - INFO - Test_Dashboard_Page_OrangeHRM - Opening 'My Info' main menu
+2025-11-28 12:15:03,318 - INFO - pages.myinfo_page - Opening My Info main menu
+2025-11-28 12:15:03,320 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//span[text()='My Info']")
+2025-11-28 12:15:03,342 - INFO - pages.base_page - Clicking on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.5C7F6E91522178B4813B62A6BC5E8108.e.171")>
+2025-11-28 12:15:05,461 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting My Info Tab Validation Loop ===
+2025-11-28 12:15:05,466 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Personal Details' is displayed and enabled
+2025-11-28 12:15:05,466 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Personal Details']")
+2025-11-28 12:15:05,951 - INFO - Test_Dashboard_Page_OrangeHRM - Personal Details is visible and enabled
+2025-11-28 12:15:06,394 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Personal Details']")
+2025-11-28 12:15:06,974 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Personal Details
+2025-11-28 12:15:06,979 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+2025-11-28 12:15:06,988 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:06,997 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+2025-11-28 12:15:06,998 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Personal Details
+2025-11-28 12:15:07,271 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Contact Details' is displayed and enabled
+2025-11-28 12:15:07,271 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Contact Details']")
+2025-11-28 12:15:07,449 - INFO - Test_Dashboard_Page_OrangeHRM - Contact Details is visible and enabled
+2025-11-28 12:15:07,855 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Contact Details']")
+2025-11-28 12:15:08,638 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Contact Details
+2025-11-28 12:15:08,651 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7
+2025-11-28 12:15:08,678 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:08,693 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7
+2025-11-28 12:15:08,693 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Contact Details
+2025-11-28 12:15:09,062 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Emergency Contacts' is displayed and enabled
+2025-11-28 12:15:09,062 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Emergency Contacts']")
+2025-11-28 12:15:09,134 - INFO - Test_Dashboard_Page_OrangeHRM - Emergency Contacts is visible and enabled
+2025-11-28 12:15:09,597 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Emergency Contacts']")
+2025-11-28 12:15:10,250 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Emergency Contacts
+2025-11-28 12:15:10,272 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7
+2025-11-28 12:15:10,329 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:10,723 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7
+2025-11-28 12:15:10,724 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Emergency Contacts
+2025-11-28 12:15:11,218 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Dependents' is displayed and enabled
+2025-11-28 12:15:11,218 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Dependents']")
+2025-11-28 12:15:11,273 - INFO - Test_Dashboard_Page_OrangeHRM - Dependents is visible and enabled
+2025-11-28 12:15:11,566 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Dependents']")
+2025-11-28 12:15:12,106 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Dependents
+2025-11-28 12:15:12,112 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7
+2025-11-28 12:15:12,128 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:12,150 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7
+2025-11-28 12:15:12,151 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Dependents
+2025-11-28 12:15:12,425 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Immigration' is displayed and enabled
+2025-11-28 12:15:12,425 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Immigration']")
+2025-11-28 12:15:12,562 - INFO - Test_Dashboard_Page_OrangeHRM - Immigration is visible and enabled
+2025-11-28 12:15:12,940 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Immigration']")
+2025-11-28 12:15:13,514 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Immigration
+2025-11-28 12:15:13,520 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7
+2025-11-28 12:15:13,529 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:13,541 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7
+2025-11-28 12:15:13,541 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Immigration
+2025-11-28 12:15:13,913 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Job' is displayed and enabled
+2025-11-28 12:15:13,914 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Job']")
+2025-11-28 12:15:13,971 - INFO - Test_Dashboard_Page_OrangeHRM - Job is visible and enabled
+2025-11-28 12:15:14,333 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Job']")
+2025-11-28 12:15:15,437 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Job
+2025-11-28 12:15:15,441 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7
+2025-11-28 12:15:15,456 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:15,467 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7
+2025-11-28 12:15:15,467 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Job
+2025-11-28 12:15:15,738 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Salary' is displayed and enabled
+2025-11-28 12:15:15,738 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Salary']")
+2025-11-28 12:15:15,883 - INFO - Test_Dashboard_Page_OrangeHRM - Salary is visible and enabled
+2025-11-28 12:15:16,244 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Salary']")
+2025-11-28 12:15:16,895 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Salary
+2025-11-28 12:15:16,902 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7
+2025-11-28 12:15:16,911 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:16,922 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7
+2025-11-28 12:15:16,922 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Salary
+2025-11-28 12:15:17,230 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Report-to' is displayed and enabled
+2025-11-28 12:15:17,230 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Report-to']")
+2025-11-28 12:15:17,373 - INFO - Test_Dashboard_Page_OrangeHRM - Report-to is visible and enabled
+2025-11-28 12:15:17,773 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Report-to']")
+2025-11-28 12:15:18,304 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Report-to
+2025-11-28 12:15:18,309 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7
+2025-11-28 12:15:18,321 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:18,332 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7
+2025-11-28 12:15:18,332 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Report-to
+2025-11-28 12:15:18,695 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Qualifications' is displayed and enabled
+2025-11-28 12:15:18,695 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Qualifications']")
+2025-11-28 12:15:18,758 - INFO - Test_Dashboard_Page_OrangeHRM - Qualifications is visible and enabled
+2025-11-28 12:15:19,152 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Qualifications']")
+2025-11-28 12:15:19,743 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Qualifications
+2025-11-28 12:15:19,748 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7
+2025-11-28 12:15:19,757 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:19,767 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7
+2025-11-28 12:15:19,767 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Qualifications
+2025-11-28 12:15:20,056 - INFO - Test_Dashboard_Page_OrangeHRM - Checking if 'Memberships' is displayed and enabled
+2025-11-28 12:15:20,057 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Memberships']")
+2025-11-28 12:15:20,187 - INFO - Test_Dashboard_Page_OrangeHRM - Memberships is visible and enabled
+2025-11-28 12:15:20,579 - INFO - pages.base_page - Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Memberships']")
+2025-11-28 12:15:21,142 - INFO - Test_Dashboard_Page_OrangeHRM - Clicked Memberships
+2025-11-28 12:15:21,147 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7
+2025-11-28 12:15:21,157 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:21,169 - INFO - Test_Dashboard_Page_OrangeHRM - Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7
+2025-11-28 12:15:21,169 - INFO - Test_Dashboard_Page_OrangeHRM - URL validated for Memberships
+2025-11-28 12:15:21,478 - INFO - Test_Dashboard_Page_OrangeHRM - Logged in as Admin.
+2025-11-28 12:15:21,478 - INFO - Test_Dashboard_Page_OrangeHRM - === TC09 � Starting Assign Leave Test ===
+2025-11-28 12:15:21,488 - INFO - pages.leave_assign_page - Clicking Leave Menu
+2025-11-28 12:15:21,488 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//span[text()='Leave']")
+2025-11-28 12:15:21,583 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.5E5C5F44C80E43C65C3E0E7DA01D8894.e.358")>
+2025-11-28 12:15:22,895 - INFO - pages.leave_assign_page - Clicking Assign Leave button
+2025-11-28 12:15:22,895 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//a[text()='Assign Leave']")
+2025-11-28 12:15:23,391 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.1A69CA52B5685A44DFF34830DF84732E.e.370")>
+2025-11-28 12:15:24,348 - INFO - Test_Dashboard_Page_OrangeHRM - Selecting employee: Orange Test
+2025-11-28 12:15:24,348 - INFO - pages.leave_assign_page - Entering employee name: Orange Test
+2025-11-28 12:15:24,348 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+2025-11-28 12:15:24,932 - INFO - pages.base_page - Waiting for all elements visible: ('xpath', "//div[@role='listbox']//div[@role='option']")
+2025-11-28 12:15:24,964 - INFO - pages.leave_assign_page - Selecting first employee suggestion from dropdown
+2025-11-28 12:15:27,330 - INFO - Test_Dashboard_Page_OrangeHRM - Employee selected: Orange Test
+2025-11-28 12:15:27,331 - INFO - Test_Dashboard_Page_OrangeHRM - Selecting leave type: CAN - Personal
+2025-11-28 12:15:27,331 - INFO - pages.leave_assign_page - Selecting leave type: CAN - Personal
+2025-11-28 12:15:27,331 - INFO - pages.base_page - Waiting for element clickable: ('xpath', "//label[text()='Leave Type']/../..//div[contains(@class,'oxd-select-text')]")
+2025-11-28 12:15:27,424 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[@role='listbox']//span[text()='CAN - Personal']")
+2025-11-28 12:15:27,444 - INFO - pages.leave_assign_page - Clicking on leave type option: CAN - Personal
+2025-11-28 12:15:28,092 - INFO - Test_Dashboard_Page_OrangeHRM - Leave type selected: CAN - Personal
+2025-11-28 12:15:28,093 - INFO - Test_Dashboard_Page_OrangeHRM - Entering date range: From=2025-12-15, To=2025-12-15
+2025-11-28 12:15:28,095 - INFO - pages.leave_assign_page - Entering From Date: 2025-12-15
+2025-11-28 12:15:28,097 - INFO - pages.base_page - Typing into ('xpath', "//label[text()='From Date']/following::input[1]"): 2025-12-15
+2025-11-28 12:15:28,233 - INFO - Test_Dashboard_Page_OrangeHRM - Dates selected: From 2025-12-15 To 2025-12-15
+2025-11-28 12:15:28,233 - INFO - Test_Dashboard_Page_OrangeHRM - Entering comments...
+2025-11-28 12:15:28,234 - INFO - pages.leave_assign_page - Entering comments: Annual leave assigned automatically
+2025-11-28 12:15:28,234 - INFO - pages.base_page - Checking visibility for element: ('xpath', '//textarea')
+2025-11-28 12:15:28,346 - INFO - Test_Dashboard_Page_OrangeHRM - Comments entered.
+2025-11-28 12:15:28,346 - INFO - Test_Dashboard_Page_OrangeHRM - Clicking Assign button...
+2025-11-28 12:15:28,346 - INFO - pages.leave_assign_page - Clicking Assign button
+2025-11-28 12:15:28,347 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:15:28,361 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.E53914FD2CA440A412D8D7AF94BEF6E9.e.410")>
+2025-11-28 12:15:28,872 - INFO - pages.leave_assign_page - Clicking Confirm Leave button
+2025-11-28 12:15:28,872 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//button[@type='button'])[5]")
+2025-11-28 12:15:29,900 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.E53914FD2CA440A412D8D7AF94BEF6E9.e.411")>
+2025-11-28 12:15:30,431 - INFO - Test_Dashboard_Page_OrangeHRM - Leave assignment submitted.
+2025-11-28 12:15:30,768 - INFO - Test_Dashboard_Page_OrangeHRM - Reading success toast...
+2025-11-28 12:15:30,768 - INFO - pages.leave_assign_page - Getting success message
+2025-11-28 12:15:30,768 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[contains(@class,'oxd-toast-content--success')]")
+2025-11-28 12:15:31,524 - INFO - Test_Dashboard_Page_OrangeHRM - Success message received: Success
+Successfully Saved
+2025-11-28 12:15:31,525 - INFO - Test_Dashboard_Page_OrangeHRM - Navigating to Leave List page...
+2025-11-28 12:15:31,525 - INFO - pages.leave_assign_page - Clicking Leave List
+2025-11-28 12:15:31,526 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//a[text()='Leave List']")
+2025-11-28 12:15:31,545 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.E53914FD2CA440A412D8D7AF94BEF6E9.e.418")>
+2025-11-28 12:15:32,502 - INFO - pages.leave_assign_page - Entering employee name: Orange Test
+2025-11-28 12:15:32,503 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+2025-11-28 12:15:33,024 - INFO - pages.base_page - Waiting for all elements visible: ('xpath', "//div[@role='listbox']//div[@role='option']")
+2025-11-28 12:15:33,040 - INFO - pages.leave_assign_page - Selecting first employee suggestion from dropdown
+2025-11-28 12:15:35,347 - INFO - pages.leave_assign_page - Clicking Search button
+2025-11-28 12:15:35,347 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:15:35,363 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.5DF9AB53F7CE3CC32229CBD1C8B72E82.e.438")>
+2025-11-28 12:15:35,881 - INFO - Test_Dashboard_Page_OrangeHRM - Fetching search results...
+2025-11-28 12:15:35,883 - INFO - pages.leave_assign_page - Reading search result message
+2025-11-28 12:15:35,884 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[@class='oxd-toast-start']//p[text()='No Records Found']")
+2025-11-28 12:15:36,331 - INFO - Test_Dashboard_Page_OrangeHRM - ==== TC09 Leave Assignment Validated Successfully ====
+2025-11-28 12:15:36,339 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:15:36,340 - INFO - pages.admin_page - Admin_Page initialized successfully.
+2025-11-28 12:15:36,340 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:15:36,340 - INFO - Test_Dashboard_Page_OrangeHRM - ====== TC05: Create and Validate New User Test Started ======
+2025-11-28 12:15:36,341 - INFO - Test_Dashboard_Page_OrangeHRM - Navigating to Admin menu...
+2025-11-28 12:15:36,341 - INFO - pages.admin_page - Attempting to open Admin menu.
+2025-11-28 12:15:36,341 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//span[text()='Admin']")
+2025-11-28 12:15:36,362 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.5DF9AB53F7CE3CC32229CBD1C8B72E82.e.442")>
+2025-11-28 12:15:37,727 - INFO - pages.admin_page - Admin menu opened successfully.
+2025-11-28 12:15:37,727 - INFO - Test_Dashboard_Page_OrangeHRM - Opening User Management page...
+2025-11-28 12:15:37,862 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//span[@class='oxd-topbar-body-nav-tab-item'])[1]")
+2025-11-28 12:15:38,180 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.7430176847F8ABB04EBE13A7DFA7B30F.e.447")>
+2025-11-28 12:15:38,686 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//a[text()='Users']")
+2025-11-28 12:15:39,258 - INFO - pages.base_page - Hovering over element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.7430176847F8ABB04EBE13A7DFA7B30F.e.459")>
+2025-11-28 12:15:39,582 - INFO - Test_Dashboard_Page_OrangeHRM - Clicking Add User button...
+2025-11-28 12:15:39,583 - INFO - pages.admin_page - Clicking Add User button.
+2025-11-28 12:15:39,584 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//button[contains(@class,'oxd-button')])[3]")
+2025-11-28 12:15:39,635 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.7430176847F8ABB04EBE13A7DFA7B30F.e.461")>
+2025-11-28 12:15:40,667 - INFO - pages.admin_page - Add User form opened.
+2025-11-28 12:15:40,669 - INFO - Test_Dashboard_Page_OrangeHRM - Admin Add User page loaded.
+2025-11-28 12:15:40,669 - INFO - Test_Dashboard_Page_OrangeHRM - Waiting for Add User form to load...
+2025-11-28 12:15:40,670 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+2025-11-28 12:15:40,708 - INFO - Test_Dashboard_Page_OrangeHRM - Selecting Role: ESS
+2025-11-28 12:15:40,709 - INFO - pages.admin_page - Selecting role: ESS
+2025-11-28 12:15:40,709 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//label[text()='User Role']/following::div[@class='oxd-select-text-input'][1]")
+2025-11-28 12:15:41,239 - INFO - pages.base_page - Finding elements with locator: ('xpath', "//div[@role='option']")
+2025-11-28 12:15:41,782 - INFO - pages.admin_page - Role selected: ESS
+2025-11-28 12:15:41,783 - INFO - Test_Dashboard_Page_OrangeHRM - Selecting Status: Enabled
+2025-11-28 12:15:41,784 - INFO - pages.admin_page - Selecting status: Enabled
+2025-11-28 12:15:41,784 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//label[text()='Status']/following::div[contains(@class,'oxd-select-text-input')])")
+2025-11-28 12:15:41,843 - INFO - pages.base_page - Finding elements with locator: ('xpath', "//div[@role='option']//span | //div[@role='option']")
+2025-11-28 12:15:42,601 - INFO - pages.admin_page - Status selected: Enabled
+2025-11-28 12:15:42,602 - INFO - Test_Dashboard_Page_OrangeHRM - Entering Employee Name: Orange Test
+2025-11-28 12:15:42,602 - INFO - pages.admin_page - Selecting employee: Orange Test
+2025-11-28 12:15:42,602 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+2025-11-28 12:15:42,725 - INFO - pages.base_page - Waiting for all elements visible: ('xpath', "//div[@role='option']")
+2025-11-28 12:15:48,051 - INFO - pages.admin_page - Employee selected: Orange Test
+2025-11-28 12:15:48,053 - INFO - Test_Dashboard_Page_OrangeHRM - Entering New Username: Test0981
+2025-11-28 12:15:48,054 - INFO - Test_Dashboard_Page_OrangeHRM - Entering New Password...
+2025-11-28 12:15:48,055 - INFO - pages.admin_page - Creating new user: Test0981
+2025-11-28 12:15:48,056 - INFO - pages.base_page - Sending keys to ('xpath', "//label[text()='Username']/following::input[1]"): Test0981
+2025-11-28 12:15:48,057 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//label[text()='Username']/following::input[1]")
+2025-11-28 12:15:48,171 - INFO - pages.base_page - Sending keys to ('xpath', "//label[text()='Password']/following::input[1]"): Test@345
+2025-11-28 12:15:48,171 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//label[text()='Password']/following::input[1]")
+2025-11-28 12:15:48,256 - INFO - pages.base_page - Sending keys to ('xpath', "//label[text()='Confirm Password']/following::input[1]"): Test@345
+2025-11-28 12:15:48,256 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//label[text()='Confirm Password']/following::input[1]")
+2025-11-28 12:15:48,339 - INFO - Test_Dashboard_Page_OrangeHRM - New user details entered successfully.
+2025-11-28 12:15:48,340 - INFO - pages.admin_page - Saving user details
+2025-11-28 12:15:48,340 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//button[@type='submit' and contains(@class,'oxd-button')]")
+2025-11-28 12:15:48,358 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.26C0F2AACF9B45BB3F63F5754E63FEC5.e.479")>
+2025-11-28 12:15:48,873 - INFO - pages.admin_page - User saved successfully.
+2025-11-28 12:15:49,211 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//div[contains(@class,'oxd-toast') and contains(.,'Success')]")
+2025-11-28 12:15:50,943 - INFO - pages.admin_page - Success message found: Success
+Successfully Saved
+�
+2025-11-28 12:15:50,961 - INFO - Test_Dashboard_Page_OrangeHRM - Success message displayed: Success
+Successfully Saved
+�
+2025-11-28 12:15:50,961 - INFO - Test_Dashboard_Page_OrangeHRM - New user created successfully.
+2025-11-28 12:15:50,962 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2025-11-28 12:15:53,866 - INFO - Test_Dashboard_Page_OrangeHRM - Logging out admin user...
+2025-11-28 12:15:53,866 - INFO - pages.dashboard_page - Attempting to logout user...
+2025-11-28 12:15:53,867 - INFO - pages.base_page - Clicking on element: ('class name', 'oxd-userdropdown')
+2025-11-28 12:15:54,425 - INFO - pages.base_page - Clicking on element: ('xpath', "//a[text()='Logout']")
+2025-11-28 12:15:55,858 - INFO - pages.dashboard_page - Logout successful.
+2025-11-28 12:15:55,858 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting New User Login Process ===
+2025-11-28 12:15:55,858 - INFO - Test_Dashboard_Page_OrangeHRM - Navigating to Login Page...
+2025-11-28 12:15:55,858 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:15:56,315 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:15:56,325 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:15:56,325 - INFO - Test_Dashboard_Page_OrangeHRM - Entering username: Test0981
+2025-11-28 12:15:56,325 - INFO - pages.login_page - Entering username: Test0981
+2025-11-28 12:15:56,326 - INFO - pages.base_page - Sending keys to ('name', 'username'): Test0981
+2025-11-28 12:15:56,326 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:15:56,788 - INFO - Test_Dashboard_Page_OrangeHRM - Entering password
+2025-11-28 12:15:56,788 - INFO - pages.login_page - Entering password
+2025-11-28 12:15:56,789 - INFO - pages.base_page - Sending keys to ('name', 'password'): Test@345
+2025-11-28 12:15:56,789 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:15:56,875 - INFO - Test_Dashboard_Page_OrangeHRM - Clicking the Login button
+2025-11-28 12:15:56,876 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:15:58,486 - INFO - Test_Dashboard_Page_OrangeHRM - Waiting for Dashboard page to load...
+2025-11-28 12:15:58,486 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:15:58,497 - INFO - pages.dashboard_page - Verifying if dashboard is loaded...
+2025-11-28 12:15:58,497 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:15:58,656 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:15:58,670 - INFO - Test_Dashboard_Page_OrangeHRM - New user login validated successfully.
+2025-11-28 12:15:58,670 - INFO - pages.dashboard_page - Attempting to logout user...
+2025-11-28 12:15:58,671 - INFO - pages.base_page - Clicking on element: ('class name', 'oxd-userdropdown')
+2025-11-28 12:15:58,755 - INFO - pages.base_page - Clicking on element: ('xpath', "//a[text()='Logout']")
+2025-11-28 12:16:00,370 - INFO - pages.dashboard_page - Logout successful.
+2025-11-28 12:16:00,382 - INFO - Test_Dashboard_Page_OrangeHRM - ====== TC05: Create & Validate New User Test Completed Successfully ======
+2025-11-28 12:16:00,393 - INFO - pages.admin_page - Admin_Page initialized successfully.
+2025-11-28 12:16:00,394 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:16:00,394 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:16:00,394 - INFO - Test_Dashboard_Page_OrangeHRM - ========== TC06 Validate Newly Created User Search STARTED ==========
+2025-11-28 12:16:00,395 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting Login Process ===
+2025-11-28 12:16:00,395 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:03,116 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:03,128 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:03,129 - INFO - Test_Dashboard_Page_OrangeHRM - Entering username: Admin
+2025-11-28 12:16:03,129 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:16:03,130 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:16:03,130 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:16:03,603 - INFO - Test_Dashboard_Page_OrangeHRM - Entering password
+2025-11-28 12:16:03,603 - INFO - pages.login_page - Entering password
+2025-11-28 12:16:03,604 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:16:03,604 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:16:03,695 - INFO - Test_Dashboard_Page_OrangeHRM - Clicking the Login button
+2025-11-28 12:16:03,695 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:16:03,773 - INFO - Test_Dashboard_Page_OrangeHRM - Waiting for Dashboard page to load...
+2025-11-28 12:16:03,773 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:16:04,924 - INFO - Test_Dashboard_Page_OrangeHRM - Logged in as Admin.
+2025-11-28 12:16:04,925 - INFO - pages.admin_page - Attempting to open Admin menu.
+2025-11-28 12:16:04,925 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//span[text()='Admin']")
+2025-11-28 12:16:05,368 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="b4e9b79f5abbc023056ec9cb1f732a6b", element="f.DFA5983E7BBE7893E28927FE1A26A95E.d.80A70BC251F7C9D748979A9DBD6CEFA1.e.573")>
+2025-11-28 12:16:07,323 - INFO - pages.admin_page - Admin menu opened successfully.
+2025-11-28 12:16:07,324 - INFO - Test_Dashboard_Page_OrangeHRM - Navigated to Admin > User Management > Users
+2025-11-28 12:16:07,324 - INFO - Test_Dashboard_Page_OrangeHRM - Searching for user: Test0981
+2025-11-28 12:16:07,324 - INFO - pages.admin_page - Searching user: Test0981
+2025-11-28 12:16:07,325 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//label[text()='Username']/../following-sibling::div/input")
+2025-11-28 12:16:07,933 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:16:08,016 - INFO - pages.admin_page - Search initiated for: Test0981
+2025-11-28 12:16:08,016 - INFO - Test_Dashboard_Page_OrangeHRM - Search initiated.
+2025-11-28 12:16:08,017 - INFO - Test_Dashboard_Page_OrangeHRM - Validating if user exists in the search results table...
+2025-11-28 12:16:08,017 - INFO - pages.admin_page - Checking if user 'Test0981' is present in table
+2025-11-28 12:16:08,017 - INFO - pages.base_page - Waiting for all elements visible: ('xpath', "//div[@role='table']//div[@role='row']")
+2025-11-28 12:16:09,637 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting Login Process ===
+2025-11-28 12:16:09,637 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:16:09,638 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:10,504 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:41,194 - INFO - conftest - ========== TEARDOWN: Closing Browser ==========
+2025-11-28 12:16:41,196 - INFO - root - Closing the browser
+2025-11-28 12:16:43,409 - INFO - conftest - ========== TEST SETUP STARTED ==========
+2025-11-28 12:16:43,410 - INFO - conftest - Selected browser: chrome
+2025-11-28 12:16:43,411 - INFO - conftest - Initializing Chrome browser...
+2025-11-28 12:16:43,412 - INFO - WDM - ====== WebDriver manager ======
+2025-11-28 12:16:45,751 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:16:46,109 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:16:46,444 - INFO - WDM - Driver [C:\Users\ADMIN\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-28 12:16:49,316 - INFO - conftest - Launched Chrome browser in incognito mode
+2025-11-28 12:16:49,442 - INFO - conftest - ========== TEST SETUP COMPLETED ==========
+2025-11-28 12:16:49,445 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:16:49,447 - INFO - Test_Login_Page_OrangeHRM - Navigating to OrangeHRM homepage...
+2025-11-28 12:16:49,452 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:53,068 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:53,075 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:53,076 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:16:53,084 - INFO - Test_Login_Page_OrangeHRM - Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:53,084 - INFO - Test_Login_Page_OrangeHRM - OrangeHRM URL loaded successfully: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:53,464 - INFO - Test_Login_Page_OrangeHRM - Screenshot captured: TC02_URL_Success.png
+2025-11-28 12:16:53,481 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:16:53,481 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:16:53,586 - INFO - Test_Login_Page_OrangeHRM - Validating username is visible and displayed
+2025-11-28 12:16:53,586 - INFO - pages.base_page - Checking if element is displayed & enabled: ('name', 'username')
+2025-11-28 12:16:53,632 - INFO - Test_Login_Page_OrangeHRM - Validating password is visible and displayed
+2025-11-28 12:16:53,634 - INFO - pages.base_page - Checking if element is displayed & enabled: ('name', 'password')
+2025-11-28 12:16:53,682 - INFO - Test_Login_Page_OrangeHRM - Validating login button is visible and displayed
+2025-11-28 12:16:53,682 - INFO - pages.base_page - Checking if element is displayed & enabled: ('xpath', "//button[@type='submit']")
+2025-11-28 12:16:53,724 - INFO - Test_Login_Page_OrangeHRM - TC03 Passed: All login fields are visible and enabled.
+2025-11-28 12:16:54,015 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:16:54,015 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:16:54,016 - INFO - Test_Login_Page_OrangeHRM - === Test Row 2 Started ===
+2025-11-28 12:16:54,016 - INFO - Test_Login_Page_OrangeHRM - Username: Admin | Password: admin123 | Expected Error: 
+2025-11-28 12:16:54,611 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:16:54,611 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:16:54,612 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:16:54,612 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:16:55,111 - INFO - pages.login_page - Entering password
+2025-11-28 12:16:55,111 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:16:55,112 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:16:55,207 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:16:55,207 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:16:55,292 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:16:55,292 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:16:56,900 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:16:56,906 - INFO - pages.login_page - Login successful
+2025-11-28 12:16:56,906 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Success
+2025-11-28 12:16:56,906 - INFO - Test_Login_Page_OrangeHRM - Detected successful login. Verifying dashboard URL...
+2025-11-28 12:16:56,907 - INFO - Test_Login_Page_OrangeHRM - Expected Dashboard URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:16:56,907 - INFO - Test_Login_Page_OrangeHRM - Actual URL: <bound method Base_Page.get_current_url of <pages.base_page.Base_Page object at 0x000002566C16E950>>
+2025-11-28 12:16:56,907 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:16:56,912 - INFO - Test_Login_Page_OrangeHRM - Dashboard URL matched successfully
+2025-11-28 12:16:57,409 - INFO - Test_Login_Page_OrangeHRM - Performing logout...
+2025-11-28 12:16:57,409 - INFO - pages.dashboard_page - Attempting to logout user...
+2025-11-28 12:16:57,410 - INFO - pages.base_page - Clicking on element: ('class name', 'oxd-userdropdown')
+2025-11-28 12:16:57,535 - INFO - pages.base_page - Clicking on element: ('xpath', "//a[text()='Logout']")
+2025-11-28 12:16:59,055 - INFO - pages.dashboard_page - Logout successful.
+2025-11-28 12:16:59,056 - INFO - utility.excel_reader - Writing test result for row 2
+2025-11-28 12:16:59,082 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:16:59,082 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:16:59,083 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Login Successful
+2025-11-28 12:16:59,083 - INFO - Test_Login_Page_OrangeHRM - === Test Row 2 Finished ===
+
+2025-11-28 12:16:59,104 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:16:59,105 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:16:59,105 - INFO - Test_Login_Page_OrangeHRM - === Test Row 3 Started ===
+2025-11-28 12:16:59,106 - INFO - Test_Login_Page_OrangeHRM - Username: Aadmin | Password: admin123 | Expected Error: Invalid credentials
+2025-11-28 12:16:59,796 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:16:59,798 - INFO - pages.login_page - Entering username: Aadmin
+2025-11-28 12:16:59,799 - INFO - pages.base_page - Sending keys to ('name', 'username'): Aadmin
+2025-11-28 12:16:59,800 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:17:00,275 - INFO - pages.login_page - Entering password
+2025-11-28 12:17:00,275 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:17:00,275 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:17:00,360 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:17:00,361 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:17:00,441 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:17:00,441 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:17:32,716 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:17:32,740 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:17:32,788 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Invalid credentials
+2025-11-28 12:17:32,789 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:17:32,789 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:17:32,796 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:17:32,796 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:17:32,802 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:17:33,233 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Invalid credentials
+2025-11-28 12:17:33,234 - INFO - utility.excel_reader - Writing test result for row 3
+2025-11-28 12:17:33,247 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:17:33,247 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:17:33,247 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:17:33,247 - INFO - Test_Login_Page_OrangeHRM - === Test Row 3 Finished ===
+
+2025-11-28 12:17:33,255 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:17:33,255 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:17:33,256 - INFO - Test_Login_Page_OrangeHRM - === Test Row 4 Started ===
+2025-11-28 12:17:33,256 - INFO - Test_Login_Page_OrangeHRM - Username: Admin | Password: admin12 | Expected Error: Invalid credentials
+2025-11-28 12:17:34,297 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:17:34,298 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:17:34,298 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:17:34,299 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:17:34,850 - INFO - pages.login_page - Entering password
+2025-11-28 12:17:34,851 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin12
+2025-11-28 12:17:34,851 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:17:34,927 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:17:34,928 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:17:34,990 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:17:34,991 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:18:07,251 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:18:07,265 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:18:07,297 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Invalid credentials
+2025-11-28 12:18:07,297 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:18:07,298 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:18:07,303 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:18:07,303 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:18:07,311 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:18:07,637 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Invalid credentials
+2025-11-28 12:18:07,638 - INFO - utility.excel_reader - Writing test result for row 4
+2025-11-28 12:18:07,649 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:18:07,649 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:18:07,649 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:18:07,649 - INFO - Test_Login_Page_OrangeHRM - === Test Row 4 Finished ===
+
+2025-11-28 12:18:07,660 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:18:07,660 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:18:07,660 - INFO - Test_Login_Page_OrangeHRM - === Test Row 5 Started ===
+2025-11-28 12:18:07,661 - INFO - Test_Login_Page_OrangeHRM - Username: admin123 | Password: Admin | Expected Error: Invalid credentials
+2025-11-28 12:18:08,709 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:18:08,709 - INFO - pages.login_page - Entering username: admin123
+2025-11-28 12:18:08,710 - INFO - pages.base_page - Sending keys to ('name', 'username'): admin123
+2025-11-28 12:18:08,710 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:18:09,208 - INFO - pages.login_page - Entering password
+2025-11-28 12:18:09,208 - INFO - pages.base_page - Sending keys to ('name', 'password'): Admin
+2025-11-28 12:18:09,209 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:18:09,333 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:18:09,334 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:18:09,488 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:18:09,488 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:18:41,484 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:18:41,508 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:18:41,545 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Invalid credentials
+2025-11-28 12:18:41,545 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:18:41,546 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:18:41,552 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:18:41,552 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:18:41,559 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:18:41,898 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Invalid credentials
+2025-11-28 12:18:41,899 - INFO - utility.excel_reader - Writing test result for row 5
+2025-11-28 12:18:41,917 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:18:41,917 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:18:41,918 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:18:41,918 - INFO - Test_Login_Page_OrangeHRM - === Test Row 5 Finished ===
+
+2025-11-28 12:18:42,024 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:18:42,025 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:18:42,025 - INFO - Test_Login_Page_OrangeHRM - === Test Row 6 Started ===
+2025-11-28 12:18:42,026 - INFO - Test_Login_Page_OrangeHRM - Username:  | Password:  | Expected Error: Required
+2025-11-28 12:18:43,201 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:18:43,202 - INFO - pages.login_page - Entering username: 
+2025-11-28 12:18:43,202 - INFO - pages.base_page - Sending keys to ('name', 'username'): 
+2025-11-28 12:18:43,202 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:18:43,796 - INFO - pages.login_page - Entering password
+2025-11-28 12:18:43,796 - INFO - pages.base_page - Sending keys to ('name', 'password'): 
+2025-11-28 12:18:43,796 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:18:43,861 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:18:43,862 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:18:43,931 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:18:43,931 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:19:15,015 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:19:15,042 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:19:46,195 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//span[text()='Required'])[1]")
+2025-11-28 12:19:46,244 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Required
+2025-11-28 12:19:46,245 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:19:46,245 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:19:46,253 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:19:46,253 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:19:46,261 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:19:46,531 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Required
+2025-11-28 12:19:46,532 - INFO - utility.excel_reader - Writing test result for row 6
+2025-11-28 12:19:46,548 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:19:46,549 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:19:46,549 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:19:46,549 - INFO - Test_Login_Page_OrangeHRM - === Test Row 6 Finished ===
+
+2025-11-28 12:19:46,565 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:19:46,565 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:19:46,565 - INFO - Test_Login_Page_OrangeHRM - === Test Row 7 Started ===
+2025-11-28 12:19:46,566 - INFO - Test_Login_Page_OrangeHRM - Username:  | Password: admin123 | Expected Error: Required
+2025-11-28 12:19:47,890 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:19:47,891 - INFO - pages.login_page - Entering username: 
+2025-11-28 12:19:47,891 - INFO - pages.base_page - Sending keys to ('name', 'username'): 
+2025-11-28 12:19:47,891 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:19:48,471 - INFO - pages.login_page - Entering password
+2025-11-28 12:19:48,471 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:19:48,471 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:19:48,557 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:19:48,557 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:19:48,679 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:19:48,679 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:20:20,423 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:20:20,443 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:20:51,525 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//span[text()='Required'])[1]")
+2025-11-28 12:20:51,559 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Required
+2025-11-28 12:20:51,559 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:20:51,560 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:20:51,568 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:20:51,568 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:20:51,575 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:20:51,995 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Required
+2025-11-28 12:20:51,996 - INFO - utility.excel_reader - Writing test result for row 7
+2025-11-28 12:20:52,010 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:20:52,010 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:20:52,010 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:20:52,011 - INFO - Test_Login_Page_OrangeHRM - === Test Row 7 Finished ===
+
+2025-11-28 12:20:52,022 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:20:52,022 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:20:52,023 - INFO - Test_Login_Page_OrangeHRM - === Test Row 8 Started ===
+2025-11-28 12:20:52,023 - INFO - Test_Login_Page_OrangeHRM - Username: Admin | Password:  | Expected Error: Required
+2025-11-28 12:20:53,202 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:20:53,203 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:20:53,203 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:20:53,203 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:20:53,742 - INFO - pages.login_page - Entering password
+2025-11-28 12:20:53,742 - INFO - pages.base_page - Sending keys to ('name', 'password'): 
+2025-11-28 12:20:53,742 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:20:53,818 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:20:53,818 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:20:53,910 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:20:53,910 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:21:25,475 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:21:25,584 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:21:56,687 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//span[text()='Required'])[1]")
+2025-11-28 12:21:56,779 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Required
+2025-11-28 12:21:56,781 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:21:56,781 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:21:56,791 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:21:56,792 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:21:56,802 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:21:57,117 - INFO - Test_Login_Page_OrangeHRM - Error message matched expected: Required
+2025-11-28 12:21:57,117 - INFO - utility.excel_reader - Writing test result for row 8
+2025-11-28 12:21:57,151 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:21:57,151 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:21:57,152 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: PASS - Error matched
+2025-11-28 12:21:57,152 - INFO - Test_Login_Page_OrangeHRM - === Test Row 8 Finished ===
+
+2025-11-28 12:21:57,167 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:21:57,167 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:21:57,167 - INFO - Test_Login_Page_OrangeHRM - === Test Row 9 Started ===
+2025-11-28 12:21:57,167 - INFO - Test_Login_Page_OrangeHRM - Username:  | Password:  | Expected Error: Invalid credentials
+2025-11-28 12:21:58,278 - INFO - Test_Login_Page_OrangeHRM - Entering username and password
+2025-11-28 12:21:58,296 - INFO - pages.login_page - Entering username: 
+2025-11-28 12:21:58,307 - INFO - pages.base_page - Sending keys to ('name', 'username'): 
+2025-11-28 12:21:58,308 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:22:00,373 - INFO - pages.login_page - Entering password
+2025-11-28 12:22:00,374 - INFO - pages.base_page - Sending keys to ('name', 'password'): 
+2025-11-28 12:22:00,374 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:22:00,468 - INFO - Test_Login_Page_OrangeHRM - Clicking login button
+2025-11-28 12:22:00,476 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:22:00,634 - INFO - pages.login_page - Checking login status...
+2025-11-28 12:22:00,635 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+2025-11-28 12:22:31,795 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:22:31,818 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+2025-11-28 12:23:02,952 - INFO - pages.base_page - Checking visibility for element: ('xpath', "(//span[text()='Required'])[1]")
+2025-11-28 12:23:03,029 - INFO - Test_Login_Page_OrangeHRM - Login status returned by page: Required
+2025-11-28 12:23:03,029 - INFO - Test_Login_Page_OrangeHRM - Invalid login detected � verifying error message...
+2025-11-28 12:23:03,029 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:23:03,043 - INFO - Test_Login_Page_OrangeHRM - User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:23:03,043 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:23:03,057 - INFO - Test_Login_Page_OrangeHRM - User did not reach dashboard � correct behavior
+2025-11-28 12:23:03,309 - ERROR - Test_Login_Page_OrangeHRM - Error message mismatch! Expected: 'Invalid credentials', Got: 'Required'
+2025-11-28 12:23:03,309 - INFO - utility.excel_reader - Writing test result for row 9
+2025-11-28 12:23:03,329 - INFO - utility.excel_reader - Excel file saved successfully after writing results
+2025-11-28 12:23:03,329 - INFO - utility.excel_reader - Workbook closed after writing
+2025-11-28 12:23:03,330 - INFO - Test_Login_Page_OrangeHRM - Result written to Excel: FAIL - Error mismatch
+2025-11-28 12:23:03,330 - INFO - Test_Login_Page_OrangeHRM - === Test Row 9 Finished ===
+
+2025-11-28 12:23:03,348 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:23:03,349 - INFO - Test_Login_Page_OrangeHRM - === TC07 Forgot Password Validation Started ===
+2025-11-28 12:23:03,350 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:23:04,382 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:23:04,393 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:23:04,394 - INFO - Test_Login_Page_OrangeHRM - Navigated to login page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:23:04,394 - INFO - pages.login_page - Opening Forgot Password page
+2025-11-28 12:23:04,394 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//p[text()='Forgot your password? ']")
+2025-11-28 12:23:04,833 - INFO - pages.base_page - Clicking on element: ('xpath', "//p[text()='Forgot your password? ']")
+2025-11-28 12:23:05,357 - INFO - Test_Login_Page_OrangeHRM - Clicked on Forgot Password link
+2025-11-28 12:23:05,357 - INFO - pages.login_page - Entering username for password reset: Testused09
+2025-11-28 12:23:05,358 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Username']")
+2025-11-28 12:23:05,803 - INFO - pages.base_page - Sending keys to ('xpath', "//input[@placeholder='Username']"): Testused09
+2025-11-28 12:23:05,803 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//input[@placeholder='Username']")
+2025-11-28 12:23:05,911 - INFO - pages.login_page - Clicking reset password button
+2025-11-28 12:23:05,911 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:23:05,930 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:23:07,042 - INFO - Test_Login_Page_OrangeHRM - Entered reset username: Testused09
+2025-11-28 12:23:07,042 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/sendPasswordReset
+2025-11-28 12:23:07,051 - INFO - pages.base_page - Fetching current URL
+2025-11-28 12:23:07,428 - INFO - Test_Login_Page_OrangeHRM - URL validation successful
+2025-11-28 12:23:07,429 - INFO - pages.login_page - Checking reset success message
+2025-11-28 12:23:07,429 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//h6[text()='Reset Password link sent successfully']")
+2025-11-28 12:23:07,461 - INFO - pages.login_page - Reset success: Reset Password link sent successfully
+2025-11-28 12:23:07,759 - INFO - Test_Login_Page_OrangeHRM - Success Message Verified: Reset Password link sent successfully
+2025-11-28 12:23:07,759 - INFO - Test_Login_Page_OrangeHRM - TC07 Forgot Password Validation Completed Successfully
+2025-11-28 12:23:07,759 - INFO - Test_Login_Page_OrangeHRM - Login Page Validation Completed Successfully
+2025-11-28 12:23:07,762 - INFO - conftest - ========== TEARDOWN: Closing Browser ==========
+2025-11-28 12:23:07,762 - INFO - root - Closing the browser
+2025-11-28 12:23:28,332 - INFO - root - Logging configured successfully
+2025-11-28 12:23:48,895 - INFO - root - Logging configured successfully
+2025-11-28 12:23:49,417 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:23:49,424 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:23:49,431 - INFO - utility.excel_reader - Fetching specific row: 2
+2025-11-28 12:23:49,499 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:23:49,525 - INFO - utility.excel_reader - Initializing ExcelUtil with file: testdata/test_data.xlsx, sheet: test_data
+2025-11-28 12:23:49,540 - INFO - utility.excel_reader - Reading parameterized test data from Excel
+2025-11-28 12:23:49,540 - INFO - utility.excel_reader - Workbook closed after reading
+2025-11-28 12:23:49,560 - INFO - conftest - ========== TEST SETUP STARTED ==========
+2025-11-28 12:23:49,561 - INFO - conftest - Selected browser: chrome
+2025-11-28 12:23:49,561 - INFO - conftest - Initializing Chrome browser...
+2025-11-28 12:23:49,561 - INFO - WDM - ====== WebDriver manager ======
+2025-11-28 12:23:52,163 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:23:52,567 - INFO - WDM - Get LATEST chromedriver version for google-chrome
+2025-11-28 12:23:52,923 - INFO - WDM - Driver [C:\Users\ADMIN\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+2025-11-28 12:23:57,435 - INFO - conftest - Launched Chrome browser in incognito mode
+2025-11-28 12:23:57,477 - INFO - conftest - ========== TEST SETUP COMPLETED ==========
+2025-11-28 12:23:57,480 - INFO - pages.admin_page - Admin_Page initialized successfully.
+2025-11-28 12:23:57,480 - INFO - pages.login_page - Login_Page POM initialized successfully.
+2025-11-28 12:23:57,481 - INFO - pages.dashboard_page - Dashboard_Page initialized successfully.
+2025-11-28 12:23:57,482 - INFO - Test_Dashboard_Page_OrangeHRM - ========== TC06 Validate Newly Created User Search STARTED ==========
+2025-11-28 12:23:57,483 - INFO - Test_Dashboard_Page_OrangeHRM - === Starting Login Process ===
+2025-11-28 12:23:57,484 - INFO - pages.login_page - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:24:01,306 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:24:01,353 - INFO - pages.login_page - Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-11-28 12:24:01,354 - INFO - Test_Dashboard_Page_OrangeHRM - Entering username: Admin
+2025-11-28 12:24:01,354 - INFO - pages.login_page - Entering username: Admin
+2025-11-28 12:24:01,354 - INFO - pages.base_page - Sending keys to ('name', 'username'): Admin
+2025-11-28 12:24:01,355 - INFO - pages.base_page - Checking visibility for element: ('name', 'username')
+2025-11-28 12:24:04,079 - INFO - Test_Dashboard_Page_OrangeHRM - Entering password
+2025-11-28 12:24:04,090 - INFO - pages.login_page - Entering password
+2025-11-28 12:24:04,091 - INFO - pages.base_page - Sending keys to ('name', 'password'): admin123
+2025-11-28 12:24:04,091 - INFO - pages.base_page - Checking visibility for element: ('name', 'password')
+2025-11-28 12:24:04,248 - INFO - Test_Dashboard_Page_OrangeHRM - Clicking the Login button
+2025-11-28 12:24:04,294 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:24:04,961 - INFO - Test_Dashboard_Page_OrangeHRM - Waiting for Dashboard page to load...
+2025-11-28 12:24:04,962 - INFO - pages.base_page - Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2025-11-28 12:24:06,274 - INFO - Test_Dashboard_Page_OrangeHRM - Logged in as Admin.
+2025-11-28 12:24:06,275 - INFO - pages.admin_page - Attempting to open Admin menu.
+2025-11-28 12:24:06,275 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//span[text()='Admin']")
+2025-11-28 12:24:06,831 - INFO - pages.base_page - Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="c47b09bfb9f490ec87fe88e645a8fce1", element="f.89FBAE9422ECB051DC557E6C02031105.d.0FCD529314800B74ACAC787BDE38370F.e.26")>
+2025-11-28 12:24:08,511 - INFO - pages.admin_page - Admin menu opened successfully.
+2025-11-28 12:24:08,512 - INFO - Test_Dashboard_Page_OrangeHRM - Navigated to Admin > User Management > Users
+2025-11-28 12:24:08,512 - INFO - Test_Dashboard_Page_OrangeHRM - Searching for user: Test0981
+2025-11-28 12:24:08,512 - INFO - pages.admin_page - Searching user: Test0981
+2025-11-28 12:24:08,513 - INFO - pages.base_page - Checking visibility for element: ('xpath', "//label[text()='Username']/../following-sibling::div/input")
+2025-11-28 12:24:09,036 - INFO - pages.base_page - Clicking on element: ('xpath', "//button[@type='submit']")
+2025-11-28 12:24:09,119 - INFO - pages.admin_page - Search initiated for: Test0981
+2025-11-28 12:24:09,120 - INFO - Test_Dashboard_Page_OrangeHRM - Search initiated.
+2025-11-28 12:24:09,121 - INFO - Test_Dashboard_Page_OrangeHRM - Validating if user exists in the search results table...
+2025-11-28 12:24:09,122 - INFO - pages.admin_page - Checking if user 'Test0981' is present in table
+2025-11-28 12:24:09,123 - INFO - pages.base_page - Waiting for all elements visible: ('xpath', "//div[@role='table']//div[@role='row']")
+2025-11-28 12:24:10,150 - INFO - pages.admin_page - User found in results: Test0981
+2025-11-28 12:24:10,480 - INFO - Test_Dashboard_Page_OrangeHRM - User 'Test0981' found successfully!
+2025-11-28 12:24:10,480 - INFO - pages.dashboard_page - Attempting to logout user...
+2025-11-28 12:24:10,481 - INFO - pages.base_page - Clicking on element: ('class name', 'oxd-userdropdown')
+2025-11-28 12:24:10,558 - INFO - pages.base_page - Clicking on element: ('xpath', "//a[text()='Logout']")
+2025-11-28 12:24:12,245 - INFO - pages.dashboard_page - Logout successful.
+2025-11-28 12:24:12,245 - INFO - Test_Dashboard_Page_OrangeHRM - ========== TC06 COMPLETED ==========
+2025-11-28 12:24:12,253 - INFO - conftest - ========== TEARDOWN: Closing Browser ==========
+2025-11-28 12:24:12,254 - INFO - root - Closing the browser
