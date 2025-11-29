@@ -225,9 +225,8 @@ A reusable foundation class that includes:
 
 ## **Project Structure:**
 
-Project2_OrangehrmHrm_Automation/                             ← Root folder containing entire automation framework
-
-│
+Project2_OrangehrmHrm_Automation/                             
+← Root folder containing entire automation framework
 
 ├── .venv/                                                    ← Virtual environment for Python dependencies
 
