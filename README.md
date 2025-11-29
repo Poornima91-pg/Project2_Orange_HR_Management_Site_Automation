@@ -225,85 +225,70 @@ A reusable foundation class that includes:
 
 ## **Project Structure:**
 
-Project2_OrangehrmHrm_Automation/                             
-← Root folder containing entire automation framework
+Project2_OrangehrmHrm_Automation/                                                       ← Root folder containing entire automation framework
 
-├── .venv/                                                    ← Virtual environment for Python dependencies
+├── .venv/                                                                              ← Virtual environment for Python dependencies
 
-│
+├── locators/                                                                           ← Centralized file for storing all element locators
 
-├── locators/                                                 ← Centralized file for storing all element locators
+│ └── locators.py                                                                       ← Contains XPaths, CSS selectors, IDs used across pages
 
-│ └── locators.py                                             ← Contains XPaths, CSS selectors, IDs used across pages
+├── pages/                                                                              ← Page Object Model classes (each file = one application page)
 
-│
+│ ├── admin_page.py                                                                     ← Admin module actions (Add/Search users)
 
-├── pages/                                                    ← Page Object Model classes (each file = one application page)
+│ ├── base_page.py                                                                      ← Base class with common functions (waits, clicks, inputs)
 
-│ ├── admin_page.py                                           ← Admin module actions (Add/Search users)
+│ ├── claim_page.py                                                                     ← Claim initiation workflow methods
 
-│ ├── base_page.py                                            ← Base class with common functions (waits, clicks, inputs)
+│ ├── dashboard_page.py                                                                 ← Main menu verification & navigation
 
-│ ├── claim_page.py                                           ← Claim initiation workflow methods
+│ ├── leave_assign_page.py                                                              ← Assign Leave page elements & actions
 
-│ ├── dashboard_page.py                                       ← Main menu verification & navigation
+│ ├── login_page.py                                                                     ← Login page interactions
 
-│ ├── leave_assign_page.py                                    ← Assign Leave page elements & actions
+│ └── myinfo_page.py                                                                    ← "My Info" module navigation & validations
 
-│ ├── login_page.py                                           ← Login page interactions
+├── Reports/                                                                            ← Stores HTML/Allure execution reports
 
-│ └── myinfo_page.py                                          ← "My Info" module navigation & validations
+│ ├── html                                                                              ← Stores HTML execution reports
 
-│
+│ └── allure                                                                            ← Stores Allure execution reports
 
-├── Reports/                                                  ← Stores HTML/Allure execution reports
+├── screenshots/                                                                        ← Captures screenshots on success and failure
 
-│ ├── html                                                    ← Stores HTML execution reports
+├── testdata/                                                                           ← External test data files
 
-│ └── allure                                                  ← Stores Allure execution reports
+│ └── test_data.xlsx                                                                    ← Data-driven test credentials & inputs
 
-│
+├── tests/                                                                              ← Pytest test scripts for all modules
 
-├── screenshots/                                              ← Captures screenshots on success and failure
+│ ├── Test_Dashboard_Page_OrangeHRM.py                                                  ← Dashboard & menu tests
 
-│
-├── testdata/                                                 ← External test data files
+│ └── Test_Login_Page_OrangeHRM.py                                                      ← Login module test cases
 
-│ └── test_data.xlsx                                          ← Data-driven test credentials & inputs
+├── utility/                                                                            ← Helper utilities (config, Excel reader)
 
-│
+│ ├── config_write.py                                                                   ← Writes/updates values inside config.ini
 
-├── tests/                                                   ← Pytest test scripts for all modules
+│ ├── config_reader.py                                                                  ← Reads configuration values (URL, browser, credentials)
 
-│ ├── Test_Dashboard_Page_OrangeHRM.py                      ← Dashboard & menu tests
+│ └──excel_reader.py                                                                    ← Reads test data from Excel (DDT support)
 
-│ └── Test_Login_Page_OrangeHRM.py                          ← Login module test cases
+├── .gitignore                                                                          ← Git ignore rules
 
-│
+├── config.ini                                                                          ← Environment/configuration settings
 
-├── utility/                                                ← Helper utilities (config, Excel reader)
+├── conftest.py                                                                         ← Pytest fixtures (browser setup, loggers)
 
-│ ├── config_write.py                                       ← Writes/updates values inside config.ini
+├── pytest.ini                                                                          ← Pytest markers & test settings
 
-│ ├── config_reader.py                                      ← Reads configuration values (URL, browser, credentials)
+├── README.md                                                                           ← Project documentation
 
-│ └──excel_reader.py                                        ← Reads test data from Excel (DDT support)
+├── requirements.txt                                                                    ← List of required Python packages
 
-│
+└── test_logs.log                                                                       ← Execution logs
 
-├── .gitignore                                              ← Git ignore rules
-
-├── config.ini                                              ← Environment/configuration settings
-
-├── conftest.py                                             ← Pytest fixtures (browser setup, loggers)
-
-├── pytest.ini                                              ← Pytest markers & test settings
-
-├── README.md                                               ← Project documentation
-
-├── requirements.txt                                        ← List of required Python packages
-
-└── test_logs.log                                           ← Execution logs
 
 ## **Setup and Installation**
 To set up and run this project locally, follow these steps:
