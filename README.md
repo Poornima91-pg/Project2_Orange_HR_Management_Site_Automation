@@ -369,7 +369,7 @@ allure generate reports/allure-results -o reports/allure-report --clean
 
 * Open Allure Report:
   
-allure open reports/allure-report
+allure serve reports/allure-report
 
 #### **Logs & Reports**
 * Logs are stored in test_logs.log
