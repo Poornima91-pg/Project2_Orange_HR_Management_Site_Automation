@@ -195,7 +195,14 @@ class Admin_Page(Base_Page):
     @allure.step("Validating user '{username}' in result table")
     def is_user_present_in_table(self, username):
         logger.info(f"Checking if user '{username}' is present in table")
-        rows = self.wait_until_all_visible(self.results_rows)
+        # Wait until at least ONE row loads after search
+        try:
+            self.is_visible(self.results_rows)  
+        except:
+            logger.error("No rows found in results table")
+            return False
+
+        rows = self.driver.find_elements(*self.results_rows)
 
         for row in rows:
             row_text = row.text.strip()
