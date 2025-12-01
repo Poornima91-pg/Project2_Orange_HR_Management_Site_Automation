@@ -1,0 +1,74 @@
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:502 === Starting Login Process ===
+[32mINFO    [0m pages.login_page:login_page.py:43 Login_Page POM initialized successfully.
+[32mINFO    [0m pages.login_page:login_page.py:53 Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.login_page:login_page.py:57 Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:507 Entering username: Test0981
+[32mINFO    [0m pages.login_page:login_page.py:69 Entering username: Test0981
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('name', 'username'): Test0981
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('name', 'username')
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:510 Entering password
+[32mINFO    [0m pages.login_page:login_page.py:82 Entering password
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('name', 'password'): Test@345
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('name', 'password')
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:513 Clicking the Login button
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:517 Waiting for Dashboard page to load...
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:520 Logged in as Employee.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:524 Opening Claim Section
+[32mINFO    [0m pages.claim_page:claim_page.py:64 Opening Claim module
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//span[text()='Claim']/parent::a")
+[32mINFO    [0m pages.claim_page:claim_page.py:67 Opening Submit Claim page
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//a[text()='Submit Claim']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:529 Selecting claim type: Accommodation
+[32mINFO    [0m pages.claim_page:claim_page.py:73 Selecting Claim Type: Accommodation
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "(//div[@class ='oxd-select-text-input'])[1]")
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//span[text()='Accommodation']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:532 Selecting currency: Indian Rupee
+[32mINFO    [0m pages.claim_page:claim_page.py:81 Selecting Currency Type: Indian Rupee
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "(//div[@class ='oxd-select-text-input'])[2]")
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@role='option']//span[text()='Indian Rupee']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:535 Entering reason: hotel stay
+[32mINFO    [0m pages.claim_page:claim_page.py:89 Entering reason: hotel stay
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('xpath', '//textarea'): hotel stay
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', '//textarea')
+[32mINFO    [0m pages.claim_page:claim_page.py:95 Clicking Create Claim button
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//button[text()=' Create ']")
+[32mINFO    [0m pages.claim_page:claim_page.py:116 Fetching success message after claim save/submit
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//p[text()='Success']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:542 Success message received: Success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:549 Adding Expense
+[32mINFO    [0m pages.claim_page:claim_page.py:125 Adding new expense row inside claim
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "(//button[text()=' Add '])[1]")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:552 Selecting claim type: Accommodation
+[32mINFO    [0m pages.claim_page:claim_page.py:73 Selecting Claim Type: Accommodation
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "(//div[@class ='oxd-select-text-input'])[1]")
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//span[text()='Accommodation']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:555 Selecting claim date: 2025-11-19
+[32mINFO    [0m pages.claim_page:claim_page.py:131 Selecting claim date: 2025-11-19
+[32mINFO    [0m pages.base_page:base_page.py:166 Waiting for element clickable: ('xpath', "//label[text()='Date']/following::input[1]")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:558 Entering amount: 5000
+[32mINFO    [0m pages.claim_page:claim_page.py:140 Entering claim amount: 5000
+[32mINFO    [0m pages.base_page:base_page.py:166 Waiting for element clickable: ('xpath', "//label[text()='Amount']/following::input[1]")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:561 Entering reason/notes: hotel stay
+[32mINFO    [0m pages.claim_page:claim_page.py:149 Entering notes: hotel stay
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('xpath', "(//textarea[@class='oxd-textarea oxd-textarea--active oxd-textarea--resize-vertical'])[2]"): hotel stay
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "(//textarea[@class='oxd-textarea oxd-textarea--active oxd-textarea--resize-vertical'])[2]")
+[32mINFO    [0m pages.claim_page:claim_page.py:101 Submitting claim
+[32mINFO    [0m pages.claim_page:claim_page.py:176 Waiting for loader to disappear
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-action-buttons-container']//button[text()=' Submit ']")
+[32mINFO    [0m pages.claim_page:claim_page.py:116 Fetching success message after claim save/submit
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//p[text()='Success']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:569 Success message received: Success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:576 Navigating to Claim History
+[32mINFO    [0m pages.claim_page:claim_page.py:155 Navigating to My Claims (Claim History)
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//a[text()='My Claims']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:579 Verifying claim is present in history...
+[32mINFO    [0m pages.claim_page:claim_page.py:160 Validating claim entry from history table
+[32mINFO    [0m pages.base_page:base_page.py:129 Waiting for all elements visible: ('xpath', "(//div[@class='oxd-table-card'])[1]")
+[32mINFO    [0m pages.claim_page:claim_page.py:168 Match found in Claim History
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC10_Claim_Validation_Success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:584 === TC10 Claim Initiation and History Validation Completed Successfully ===
+[32mINFO    [0m conftest:conftest.py:116 ========== TEARDOWN: Closing Browser ==========
+[32mINFO    [0m root:conftest.py:117 Closing the browser

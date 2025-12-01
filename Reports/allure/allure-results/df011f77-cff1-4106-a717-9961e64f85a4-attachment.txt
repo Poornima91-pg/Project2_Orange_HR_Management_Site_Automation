@@ -1,0 +1,10 @@
+[32mINFO    [0m pages.login_page:login_page.py:43 Login_Page POM initialized successfully.
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:89 Validating username is visible and displayed
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('name', 'username')
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:93 Validating password is visible and displayed
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('name', 'password')
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:97 Validating login button is visible and displayed
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:103 TC03 Passed: All login fields are visible and enabled.
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC03_Login_Fields_Visible_success

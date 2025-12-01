@@ -1,0 +1,33 @@
+[32mINFO    [0m pages.login_page:login_page.py:43 Login_Page POM initialized successfully.
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:35 Dashboard_Page initialized successfully.
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:134 === Test Row 9 Started ===
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:135 Username:  | Password:  | Expected Error: Invalid credentials
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:141 Entering username and password
+[32mINFO    [0m pages.login_page:login_page.py:69 Entering username: 
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('name', 'username'): 
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('name', 'username')
+[32mINFO    [0m pages.login_page:login_page.py:82 Entering password
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('name', 'password'): 
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('name', 'password')
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:145 Clicking login button
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m pages.login_page:login_page.py:109 Checking login status...
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//p[text()='Invalid credentials']")
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "(//span[text()='Required'])[1]")
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "(//span[text()='Required'])[2]")
+[1m[31mERROR   [0m pages.login_page:login_page.py:131 Login failed: Unknown error
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:150 Login status returned by page: Failed: Unknown error
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:180 Invalid login detected — verifying error message...
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:181 User is still on page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:186 User did not reach dashboard — correct behavior
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_01_Row_9_Invalid_Login_success
+[1m[31mERROR   [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:203 Error message mismatch! Expected: 'Invalid credentials', Got: 'Failed: Unknown error'
+[32mINFO    [0m utility.excel_reader:excel_reader.py:72 Writing test result for row 9
+[32mINFO    [0m utility.excel_reader:excel_reader.py:84 Excel file saved successfully after writing results
+[32mINFO    [0m utility.excel_reader:excel_reader.py:88 Workbook closed after writing
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:205 Result written to Excel: FAIL - Error mismatch
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:209 === Test Row 9 Finished ===
