@@ -1,0 +1,132 @@
+[32mINFO    [0m conftest:conftest.py:46 ========== TEST SETUP STARTED ==========
+[32mINFO    [0m conftest:conftest.py:50 Selected browser: chrome
+[32mINFO    [0m conftest:conftest.py:57 Initializing Chrome browser...
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ADMIN\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:68 Launched Chrome browser in incognito mode
+[32mINFO    [0m conftest:conftest.py:104 ========== TEST SETUP COMPLETED ==========
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:35 Dashboard_Page initialized successfully.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:47 === Starting Login Process ===
+[32mINFO    [0m pages.login_page:login_page.py:43 Login_Page POM initialized successfully.
+[32mINFO    [0m pages.login_page:login_page.py:53 Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.login_page:login_page.py:57 Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:52 Entering username: Admin
+[32mINFO    [0m pages.login_page:login_page.py:69 Entering username: Admin
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('name', 'username'): Admin
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('name', 'username')
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:55 Entering password
+[32mINFO    [0m pages.login_page:login_page.py:82 Entering password
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('name', 'password'): admin123
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('name', 'password')
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:58 Clicking the Login button
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:62 Waiting for Dashboard page to load...
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:77 === Starting Menu Validation Loop ===
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:84 Validating menu → Admin
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:90 Checking if 'Admin' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Admin']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:95 Admin is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_04_Admin_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Admin']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:101 Clicked Admin
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:105 Expected URL for 'Admin' → https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:110 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:115 URL validated for Admin
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC04_Admin_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:84 Validating menu → PIM
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:90 Checking if 'PIM' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='PIM']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:95 PIM is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_04_PIM_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='PIM']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:101 Clicked PIM
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:105 Expected URL for 'PIM' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:110 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:115 URL validated for PIM
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC04_PIM_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:84 Validating menu → Leave
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:90 Checking if 'Leave' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Leave']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:95 Leave is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_04_Leave_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Leave']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:101 Clicked Leave
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:105 Expected URL for 'Leave' → https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:110 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:115 URL validated for Leave
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC04_Leave_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:84 Validating menu → Time
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:90 Checking if 'Time' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Time']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:95 Time is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_04_Time_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Time']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:101 Clicked Time
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:105 Expected URL for 'Time' → https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:110 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:115 URL validated for Time
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC04_Time_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:84 Validating menu → Recruitment
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:90 Checking if 'Recruitment' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Recruitment']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:95 Recruitment is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_04_Recruitment_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Recruitment']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:101 Clicked Recruitment
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:105 Expected URL for 'Recruitment' → https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:110 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:115 URL validated for Recruitment
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC04_Recruitment_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:84 Validating menu → My Info
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:90 Checking if 'My Info' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='My Info']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:95 My Info is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_04_My Info_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='My Info']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:101 Clicked My Info
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:105 Expected URL for 'My Info' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:110 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:115 URL validated for My Info
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC04_My Info_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:84 Validating menu → Performance
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:90 Checking if 'Performance' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Performance']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:95 Performance is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_04_Performance_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Performance']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:101 Clicked Performance
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:105 Expected URL for 'Performance' → https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:110 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:115 URL validated for Performance
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC04_Performance_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:84 Validating menu → Dashboard
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:90 Checking if 'Dashboard' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Dashboard']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:95 Dashboard is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_04_Dashboard_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//ul[@class='oxd-main-menu']//span[text()='Dashboard']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:101 Clicked Dashboard
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:105 Expected URL for 'Dashboard' → https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:110 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:115 URL validated for Dashboard
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC04_Dashboard_URL_success

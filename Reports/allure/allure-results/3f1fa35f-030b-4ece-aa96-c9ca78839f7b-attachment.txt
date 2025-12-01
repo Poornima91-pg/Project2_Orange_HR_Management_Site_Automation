@@ -1,0 +1,11 @@
+[32mINFO    [0m pages.login_page:login_page.py:43 Login_Page POM initialized successfully.
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:236 === TC07 Forgot Password Validation Started ===
+[32mINFO    [0m pages.login_page:login_page.py:53 Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.login_page:login_page.py:57 Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:240 Navigated to login page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.login_page:login_page.py:138 Opening Forgot Password page
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//p[text()='Forgot your password? ']")
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//p[text()='Forgot your password? ']")
+[32mINFO    [0m conftest:conftest.py:116 ========== TEARDOWN: Closing Browser ==========
+[32mINFO    [0m root:conftest.py:117 Closing the browser

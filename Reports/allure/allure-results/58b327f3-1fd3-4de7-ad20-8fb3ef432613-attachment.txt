@@ -1,0 +1,60 @@
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:222 Logged in as Admin.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:223 === TC09 – Starting Assign Leave Test ===
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:227 Navigating to Leave module → Assign Leave page...
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:55 Clicking Leave Menu
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//span[text()='Leave']")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="1d9800ca9fa99e08a971f214a3790b0a", element="f.27DAD333370FA5B6244B674C722DFB52.d.95506846B4655973B4CF02B87DB97C82.e.366")>
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:61 Clicking Assign Leave button
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//a[text()='Assign Leave']")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="1d9800ca9fa99e08a971f214a3790b0a", element="f.27DAD333370FA5B6244B674C722DFB52.d.25A90368A214854CDD425AFE18FF1B96.e.379")>
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:230 Navigated to Leave → Assign Leave page
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:234 Selecting employee: Orange Test
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:68 Entering employee name: Orange Test
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+[32mINFO    [0m pages.base_page:base_page.py:129 Waiting for all elements visible: ('xpath', "//div[@role='listbox']//div[@role='option']")
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:77 Selecting first employee suggestion from dropdown
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:236 Employee selected: Orange Test
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:240 Selecting leave type: CAN - Personal
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:84 Selecting leave type: CAN - Personal
+[32mINFO    [0m pages.base_page:base_page.py:166 Waiting for element clickable: ('xpath', "//label[text()='Leave Type']/../..//div[contains(@class,'oxd-select-text')]")
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//div[@role='listbox']//span[text()='CAN - Personal']")
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:97 Clicking on leave type option: CAN - Personal
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:242 Leave type selected: CAN - Personal
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:246 Entering date range: From=2025-12-15, To=2025-12-15
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:103 Entering From Date: 2025-12-15
+[32mINFO    [0m pages.base_page:base_page.py:155 Typing into ('xpath', "//label[text()='From Date']/following::input[1]"): 2025-12-15
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:248 Dates selected: From 2025-12-15 To 2025-12-15
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:252 Entering comments...
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:114 Entering comments: Annual leave assigned automatically
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', '//textarea')
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:254 Comments entered.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:258 Clicking Assign button...
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:122 Clicking Assign button
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="1d9800ca9fa99e08a971f214a3790b0a", element="f.27DAD333370FA5B6244B674C722DFB52.d.AE52D6875C6455541BBEE306D5080F74.e.419")>
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:128 Clicking Confirm Leave button
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "(//button[@type='button'])[5]")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="1d9800ca9fa99e08a971f214a3790b0a", element="f.27DAD333370FA5B6244B674C722DFB52.d.AE52D6875C6455541BBEE306D5080F74.e.422")>
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:263 Leave assignment submitted.
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC09_Leave_Assign_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:268 Reading success toast...
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:136 Getting success message
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//div[contains(@class,'oxd-toast-content--success')]")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:271 Success message received: Success
+Successfully Saved
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:278 Navigating to Leave List page...
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:144 Clicking Leave List
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//a[text()='Leave List']")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="1d9800ca9fa99e08a971f214a3790b0a", element="f.27DAD333370FA5B6244B674C722DFB52.d.AE52D6875C6455541BBEE306D5080F74.e.427")>
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:68 Entering employee name: Orange Test
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+[32mINFO    [0m pages.base_page:base_page.py:129 Waiting for all elements visible: ('xpath', "//div[@role='listbox']//div[@role='option']")
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:77 Selecting first employee suggestion from dropdown
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:150 Clicking Search button
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="1d9800ca9fa99e08a971f214a3790b0a", element="f.27DAD333370FA5B6244B674C722DFB52.d.72D634698261FAA4A1A51E24F5530D0B.e.448")>
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:283 Fetching search results...
+[32mINFO    [0m pages.leave_assign_page:leave_assign_page.py:163 Reading search result message
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//div[@class='oxd-toast-start']//p[text()='No Records Found']")
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC09_Leave_Search_Validation_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:291 ==== TC09 Leave Assignment Validated Successfully ====

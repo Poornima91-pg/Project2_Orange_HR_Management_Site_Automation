@@ -1,0 +1,95 @@
+[32mINFO    [0m pages.login_page:login_page.py:43 Login_Page POM initialized successfully.
+[32mINFO    [0m pages.admin_page:admin_page.py:56 Admin_Page initialized successfully.
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:35 Dashboard_Page initialized successfully.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:309 ====== TC05: Create and Validate New User Test Started ======
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:325 Navigating to Admin menu...
+[32mINFO    [0m pages.admin_page:admin_page.py:61 Attempting to open Admin menu.
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//span[text()='Admin']")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="484458f21cc45d4d76860d7ff010be4f", element="f.B4DDDF2130EEDA59FCCB3607444E07E4.d.CBDE65852A2BE6793E80C2BD4FF02003.e.447")>
+[32mINFO    [0m pages.admin_page:admin_page.py:64 Admin menu opened successfully.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:328 Opening User Management page...
+[32mINFO    [0m pages.admin_page:admin_page.py:69 Navigating to User Management → Users
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "(//span[@class='oxd-topbar-body-nav-tab-item'])[1]")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="484458f21cc45d4d76860d7ff010be4f", element="f.B4DDDF2130EEDA59FCCB3607444E07E4.d.9CB26709E71B10FC758A36A12A7F77C7.e.453")>
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//a[text()='Users']")
+[32mINFO    [0m pages.base_page:base_page.py:139 Hovering over element: <selenium.webdriver.remote.webelement.WebElement (session="484458f21cc45d4d76860d7ff010be4f", element="f.B4DDDF2130EEDA59FCCB3607444E07E4.d.9CB26709E71B10FC758A36A12A7F77C7.e.463")>
+[32mINFO    [0m pages.admin_page:admin_page.py:76 User Management → Users opened.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:331 Clicking Add User button...
+[32mINFO    [0m pages.admin_page:admin_page.py:81 Clicking Add User button.
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "(//button[contains(@class,'oxd-button')])[3]")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="484458f21cc45d4d76860d7ff010be4f", element="f.B4DDDF2130EEDA59FCCB3607444E07E4.d.9CB26709E71B10FC758A36A12A7F77C7.e.465")>
+[32mINFO    [0m pages.admin_page:admin_page.py:84 Add User form opened.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:334 Admin Add User page loaded.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:338 Waiting for Add User form to load...
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:341 Selecting Role: ESS
+[32mINFO    [0m pages.admin_page:admin_page.py:89 Selecting role: ESS
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//label[text()='User Role']/following::div[@class='oxd-select-text-input'][1]")
+[32mINFO    [0m pages.base_page:base_page.py:105 Finding elements with locator: ('xpath', "//div[@role='option']")
+[32mINFO    [0m pages.admin_page:admin_page.py:106 Role selected: ESS
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:344 Selecting Status: Enabled
+[32mINFO    [0m pages.admin_page:admin_page.py:113 Selecting status: Enabled
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "(//label[text()='Status']/following::div[contains(@class,'oxd-select-text-input')])")
+[32mINFO    [0m pages.base_page:base_page.py:105 Finding elements with locator: ('xpath', "//div[@role='option']//span | //div[@role='option']")
+[32mINFO    [0m pages.admin_page:admin_page.py:131 Status selected: Enabled
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:347 Entering Employee Name: Orange Test
+[32mINFO    [0m pages.admin_page:admin_page.py:139 Selecting employee: Orange Test
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//input[@placeholder='Type for hints...']")
+[32mINFO    [0m pages.base_page:base_page.py:129 Waiting for all elements visible: ('xpath', "//div[@role='option']")
+[32mINFO    [0m pages.admin_page:admin_page.py:153 Employee selected: Orange Test
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:350 Entering New Username: Test0981
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:351 Entering New Password...
+[32mINFO    [0m pages.admin_page:admin_page.py:158 Creating new user: Test0981
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('xpath', "//label[text()='Username']/following::input[1]"): Test0981
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//label[text()='Username']/following::input[1]")
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('xpath', "//label[text()='Password']/following::input[1]"): Test@345
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//label[text()='Password']/following::input[1]")
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('xpath', "//label[text()='Confirm Password']/following::input[1]"): Test@345
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//label[text()='Confirm Password']/following::input[1]")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:354 New user details entered successfully.
+[32mINFO    [0m pages.admin_page:admin_page.py:168 Saving user details
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//button[@type='submit' and contains(@class,'oxd-button')]")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="484458f21cc45d4d76860d7ff010be4f", element="f.B4DDDF2130EEDA59FCCB3607444E07E4.d.C682307472AFB500A6724577F205BA6E.e.487")>
+[32mINFO    [0m pages.admin_page:admin_page.py:171 User saved successfully.
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC05_User_Creation_Success
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//div[contains(@class,'oxd-toast') and contains(.,'Success')]")
+[32mINFO    [0m pages.admin_page:admin_page.py:178 Success message found: Success
+Successfully Saved
+×
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:362 Success message displayed: Success
+Successfully Saved
+×
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:366 New user created successfully.
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:371 Logging out admin user...
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:47 Attempting to logout user...
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('class name', 'oxd-userdropdown')
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//a[text()='Logout']")
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:51 Logout successful.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:375 === Starting New User Login Process ===
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:378 Navigating to Login Page...
+[32mINFO    [0m pages.login_page:login_page.py:53 Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.login_page:login_page.py:57 Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:381 Entering username: Test0981
+[32mINFO    [0m pages.login_page:login_page.py:69 Entering username: Test0981
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('name', 'username'): Test0981
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('name', 'username')
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:384 Entering password
+[32mINFO    [0m pages.login_page:login_page.py:82 Entering password
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('name', 'password'): Test@345
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('name', 'password')
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:387 Clicking the Login button
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC05_New_User_Login_Attempt_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:391 Waiting for Dashboard page to load...
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:64 Verifying if dashboard is loaded...
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//p[@class='oxd-userdropdown-name']")
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:398 New user login validated successfully.
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:47 Attempting to logout user...
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('class name', 'oxd-userdropdown')
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//a[text()='Logout']")
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:51 Logout successful.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:401 ====== TC05: Create & Validate New User Test Completed Successfully ======

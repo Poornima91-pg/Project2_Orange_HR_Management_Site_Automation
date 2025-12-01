@@ -1,0 +1,47 @@
+[32mINFO    [0m conftest:conftest.py:46 ========== TEST SETUP STARTED ==========
+[32mINFO    [0m conftest:conftest.py:50 Selected browser: chrome
+[32mINFO    [0m conftest:conftest.py:57 Initializing Chrome browser...
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ADMIN\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:68 Launched Chrome browser in incognito mode
+[32mINFO    [0m conftest:conftest.py:104 ========== TEST SETUP COMPLETED ==========
+[32mINFO    [0m pages.admin_page:admin_page.py:56 Admin_Page initialized successfully.
+[32mINFO    [0m pages.login_page:login_page.py:43 Login_Page POM initialized successfully.
+[32mINFO    [0m pages.dashboard_page:dashboard_page.py:35 Dashboard_Page initialized successfully.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:426 ========== TC06 Validate Newly Created User Search STARTED ==========
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:429 === Starting Login Process ===
+[32mINFO    [0m pages.login_page:login_page.py:53 Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.login_page:login_page.py:57 Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:434 Entering username: Admin
+[32mINFO    [0m pages.login_page:login_page.py:69 Entering username: Admin
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('name', 'username'): Admin
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('name', 'username')
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:437 Entering password
+[32mINFO    [0m pages.login_page:login_page.py:82 Entering password
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('name', 'password'): admin123
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('name', 'password')
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:440 Clicking the Login button
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:443 Waiting for Dashboard page to load...
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:446 Logged in as Admin.
+[32mINFO    [0m pages.admin_page:admin_page.py:61 Attempting to open Admin menu.
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//span[text()='Admin']")
+[32mINFO    [0m pages.base_page:base_page.py:145 Action click on element: <selenium.webdriver.remote.webelement.WebElement (session="0a1a32330f0825fd7313f46ae15f3914", element="f.4C5FDB835EABC108B7057F3A6D72AB2E.d.FA8B6D03510F836A930D676D13B6B206.e.29")>
+[32mINFO    [0m pages.admin_page:admin_page.py:64 Admin menu opened successfully.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:451 Navigated to Admin > User Management > Users
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:456 Searching for user: Test0981
+[32mINFO    [0m pages.admin_page:admin_page.py:186 Searching user: Test0981
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//label[text()='Username']/../following-sibling::div/input")
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m pages.admin_page:admin_page.py:192 Search initiated for: Test0981
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:458 Search initiated.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:462 Validating if user exists in the search results table...
+[32mINFO    [0m pages.admin_page:admin_page.py:197 Checking if user 'Test0981' is present in table
+[32mINFO    [0m pages.base_page:base_page.py:129 Waiting for all elements visible: ('xpath', "//div[@role='table']//div[@role='row']")
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_06_User_Validation_Success
+[32mINFO    [0m conftest:conftest.py:116 ========== TEARDOWN: Closing Browser ==========
+[32mINFO    [0m root:conftest.py:117 Closing the browser
