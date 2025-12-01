@@ -1,0 +1,31 @@
+[32mINFO    [0m pages.login_page:login_page.py:43 Login_Page POM initialized successfully.
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:236 === TC07 Forgot Password Validation Started ===
+[32mINFO    [0m pages.login_page:login_page.py:53 Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.login_page:login_page.py:57 Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:240 Navigated to login page: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.login_page:login_page.py:138 Opening Forgot Password page
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//p[text()='Forgot your password? ']")
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//p[text()='Forgot your password? ']")
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:244 Clicked on Forgot Password link
+[32mINFO    [0m pages.login_page:login_page.py:145 Entering username for password reset: Testused09
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//input[@placeholder='Username']")
+[32mINFO    [0m pages.base_page:base_page.py:52 Sending keys to ('xpath', "//input[@placeholder='Username']"): Testused09
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//input[@placeholder='Username']")
+[32mINFO    [0m pages.login_page:login_page.py:149 Clicking reset password button
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//button[@type='submit']")
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:248 Entered reset username: Testused09
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/sendPasswordReset
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC07_ForgotPassword_url_success
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:257 URL validation successful
+[32mINFO    [0m pages.login_page:login_page.py:156 Checking reset success message
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//h6[text()='Reset Password link sent successfully']")
+[32mINFO    [0m pages.login_page:login_page.py:160 Reset success: Reset Password link sent successfully
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC07_ForgotPassword_success
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:271 Success Message Verified: Reset Password link sent successfully
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:278 TC07 Forgot Password Validation Completed Successfully
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:279 Login Page Validation Completed Successfully
+[32mINFO    [0m conftest:conftest.py:116 ========== TEARDOWN: Closing Browser ==========
+[32mINFO    [0m root:conftest.py:117 Closing the browser

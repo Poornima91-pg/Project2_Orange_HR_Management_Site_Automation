@@ -1,0 +1,19 @@
+[32mINFO    [0m conftest:conftest.py:46 ========== TEST SETUP STARTED ==========
+[32mINFO    [0m conftest:conftest.py:50 Selected browser: chrome
+[32mINFO    [0m conftest:conftest.py:57 Initializing Chrome browser...
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\ADMIN\.wdm\drivers\chromedriver\win64\142.0.7444.175\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m conftest:conftest.py:68 Launched Chrome browser in incognito mode
+[32mINFO    [0m conftest:conftest.py:104 ========== TEST SETUP COMPLETED ==========
+[32mINFO    [0m pages.login_page:login_page.py:43 Login_Page POM initialized successfully.
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:48 Navigating to OrangeHRM homepage...
+[32mINFO    [0m pages.login_page:login_page.py:53 Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.login_page:login_page.py:57 Successfully navigated to: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:53 Expected URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login | Actual URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:56 OrangeHRM URL loaded successfully: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC02_URL_Success
+[32mINFO    [0m Test_Login_Page_OrangeHRM:Test_Login_Page_OrangeHRM.py:60 Screenshot captured: TC02_URL_Success.png

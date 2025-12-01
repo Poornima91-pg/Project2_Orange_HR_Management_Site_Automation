@@ -1,0 +1,136 @@
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:36 MyInfo_Page initialized successfully.
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:140 Opening 'My Info' main menu
+[32mINFO    [0m pages.myinfo_page:myinfo_page.py:76 Opening My Info main menu
+[32mINFO    [0m pages.base_page:base_page.py:82 Checking visibility for element: ('xpath', "//span[text()='My Info']")
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: <selenium.webdriver.remote.webelement.WebElement (session="1d9800ca9fa99e08a971f214a3790b0a", element="f.27DAD333370FA5B6244B674C722DFB52.d.101923627B29DBE0BD8DE29A7B8ACE8C.e.179")>
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:157 === Starting My Info Tab Validation Loop ===
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:163 Validating My Info tab → Personal Details
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:169 Checking if 'Personal Details' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Personal Details']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:172 Personal Details is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_08_Personal Details_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Personal Details']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:178 Clicked Personal Details
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:182 Expected URL for 'Personal Details' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:186 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:191 URL validated for Personal Details
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC08_Personal Details_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:163 Validating My Info tab → Contact Details
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:169 Checking if 'Contact Details' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Contact Details']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:172 Contact Details is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_08_Contact Details_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Contact Details']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:178 Clicked Contact Details
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:182 Expected URL for 'Contact Details' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:186 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:191 URL validated for Contact Details
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC08_Contact Details_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:163 Validating My Info tab → Emergency Contacts
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:169 Checking if 'Emergency Contacts' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Emergency Contacts']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:172 Emergency Contacts is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_08_Emergency Contacts_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Emergency Contacts']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:178 Clicked Emergency Contacts
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:182 Expected URL for 'Emergency Contacts' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:186 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:191 URL validated for Emergency Contacts
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC08_Emergency Contacts_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:163 Validating My Info tab → Dependents
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:169 Checking if 'Dependents' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Dependents']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:172 Dependents is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_08_Dependents_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Dependents']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:178 Clicked Dependents
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:182 Expected URL for 'Dependents' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:186 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:191 URL validated for Dependents
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC08_Dependents_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:163 Validating My Info tab → Immigration
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:169 Checking if 'Immigration' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Immigration']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:172 Immigration is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_08_Immigration_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Immigration']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:178 Clicked Immigration
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:182 Expected URL for 'Immigration' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:186 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:191 URL validated for Immigration
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC08_Immigration_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:163 Validating My Info tab → Job
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:169 Checking if 'Job' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Job']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:172 Job is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_08_Job_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Job']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:178 Clicked Job
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:182 Expected URL for 'Job' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:186 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:191 URL validated for Job
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC08_Job_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:163 Validating My Info tab → Salary
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:169 Checking if 'Salary' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Salary']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:172 Salary is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_08_Salary_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Salary']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:178 Clicked Salary
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:182 Expected URL for 'Salary' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:186 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:191 URL validated for Salary
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC08_Salary_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:163 Validating My Info tab → Report-to
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:169 Checking if 'Report-to' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Report-to']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:172 Report-to is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_08_Report-to_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Report-to']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:178 Clicked Report-to
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:182 Expected URL for 'Report-to' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:186 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:191 URL validated for Report-to
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC08_Report-to_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:163 Validating My Info tab → Qualifications
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:169 Checking if 'Qualifications' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Qualifications']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:172 Qualifications is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_08_Qualifications_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Qualifications']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:178 Clicked Qualifications
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:182 Expected URL for 'Qualifications' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:186 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:191 URL validated for Qualifications
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC08_Qualifications_URL_success
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:163 Validating My Info tab → Memberships
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:169 Checking if 'Memberships' is displayed and enabled
+[32mINFO    [0m pages.base_page:base_page.py:94 Checking if element is displayed & enabled: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Memberships']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:172 Memberships is visible and enabled
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC_08_Memberships_Visible_Enabled_success
+[32mINFO    [0m pages.base_page:base_page.py:37 Clicking on element: ('xpath', "//div[@class='orangehrm-tabs']//a[text()='Memberships']")
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:178 Clicked Memberships
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:182 Expected URL for 'Memberships' → https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:70 Waiting for URL to be: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7
+[32mINFO    [0m pages.base_page:base_page.py:62 Fetching current URL
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:186 Actual URL after clicking: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7
+[32mINFO    [0m Test_Dashboard_Page_OrangeHRM:Test_Dashboard_Page_OrangeHRM.py:191 URL validated for Memberships
+[32mINFO    [0m pages.base_page:base_page.py:113 Capturing screenshot → TC08_Memberships_URL_success
