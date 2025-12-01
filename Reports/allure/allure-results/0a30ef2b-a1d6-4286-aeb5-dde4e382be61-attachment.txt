@@ -1,0 +1,25 @@
+ROW: Username
+User Role
+Employee Name
+Status
+Actions
+ROW: Admin
+Admin
+manda user
+Enabled
+ROW: FMLName
+ESS
+Qwerty LName
+Enabled
+ROW: FMLName1
+ESS
+FName LName
+Enabled
+ROW: Jobinsam@6742
+ESS
+Jobin Sam
+Enabled
+ROW: Test0981
+ESS
+Orange Test
+Enabled
